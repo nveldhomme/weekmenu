@@ -1,0 +1,639 @@
+{
+ "week": 43,
+ "range": "19 t/m 25 oktober 2026",
+ "updated": "za 17 okt, 17:20",
+ "stores": [
+  {
+   "id": "aldi",
+   "name": "Aldi",
+   "status": "compleet",
+   "valid": "ma 19 t/m zo 25 okt"
+  },
+  {
+   "id": "lidl",
+   "name": "Lidl",
+   "status": "compleet",
+   "valid": "ma 19 t/m zo 25 okt"
+  },
+  {
+   "id": "poiesz",
+   "name": "Poiesz",
+   "status": "compleet",
+   "valid": "zo 18 t/m za 24 okt"
+  },
+  {
+   "id": "nettorama",
+   "name": "Nettorama",
+   "status": "compleet",
+   "valid": "ma 19 t/m zo 25 okt"
+  }
+ ],
+ "note": "Poiesz geldt van zondag 18 t/m zaterdag 24 oktober, de andere drie van maandag 19 t/m zondag 25 oktober.",
+ "deals": [
+  {
+   "store": "nettorama",
+   "cat": "Vlees",
+   "name": "Gemengd gehakt, per kilo",
+   "price": "5,00",
+   "top": true,
+   "why": "Kilozak; helft invriezen. Voor woensdag"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Groente & fruit",
+   "name": "Roerbakgroenten, alle varianten, zak 400 g",
+   "price": "1,69",
+   "top": true,
+   "why": "Basis voor de wok"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Groente & fruit",
+   "name": "Verpakte spruiten, zak 500 g",
+   "price": "0,80",
+   "top": true,
+   "why": "Goedkoopste spruitjes deze week"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Vlees",
+   "name": "Slagershuis rookworst, 225 g",
+   "price": "0,80"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Vlees",
+   "name": "Kipshoarma met paprika of kipgyros met ui, 400 g",
+   "price": "4,99"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Vlees",
+   "name": "Filetlapjes naturel of varkensfiletrollade, 500 g",
+   "price": "4,99"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Vlees",
+   "name": "Gehakt cordon bleu, slavink of boomstam, 5 stuks",
+   "price": "4,00"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Vlees",
+   "name": "Gerookte spekreepjes, 125 g",
+   "price": "0,80"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Groente & fruit",
+   "name": "Groentemix, broccoli- of bloemkoolroosjes, sperziebonen, pompoenblokjes, zak 350/400 g",
+   "price": "1,79"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Groente & fruit",
+   "name": "Smaak trostomaten, 400 g",
+   "price": "1,49"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Groente & fruit",
+   "name": "Druiven, blauwe bessen of ananas",
+   "price": "3,50",
+   "why": "2 stuks"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Zuivel & kaas",
+   "name": "Maaslander gesneden kaas, 140-150 g",
+   "price": "1,79"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Zuivel & kaas",
+   "name": "Almhof roomyoghurt, 500 g",
+   "price": "1,49"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Zuivel & kaas",
+   "name": "Zuivelhoeve XXL Nutrition, alle varianten",
+   "price": "3,00",
+   "why": "2 stuks"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Zuivel & kaas",
+   "name": "Melkan koffiemelk, fles 186/188 ml",
+   "price": "0,80"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Brood",
+   "name": "Witte of volkoren bollen, zak 6 stuks",
+   "price": "1,75",
+   "why": "2 zakken"
+  },
+  {
+   "store": "nettorama",
+   "cat": "Voorraad",
+   "name": "Douwe Egberts roodmerk of espresso bonen, 1 kg",
+   "price": "13,49"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Vlees",
+   "name": "Kipdijshoarma of kipdijgyros",
+   "price": "4,00",
+   "top": true,
+   "why": "Kipdij voor de wok"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Vlees",
+   "name": "Runderlappen of hacheevlees",
+   "price": "7,99"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Vlees",
+   "name": "Varkensfiletlapjes",
+   "price": "7,49"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Vis",
+   "name": "Roerbakgarnalen knoflook",
+   "price": "3,50"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Groente & fruit",
+   "name": "Prei kort",
+   "price": "0,50"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Groente & fruit",
+   "name": "Spruiten",
+   "price": "1,00"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Groente & fruit",
+   "name": "Boeren of fijne soepgroente",
+   "price": "1,50"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Groente & fruit",
+   "name": "Doyenne du Comice handperen of Kanzi appels",
+   "price": "2,00"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Groente & fruit",
+   "name": "Zespri Sungold kiwi",
+   "price": "3,00"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Vega",
+   "name": "Alpro houdbare drinks, desserts of soya cuisine",
+   "price": "1,89"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Vega",
+   "name": "Premium quiche",
+   "price": "5,00"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Zuivel & kaas",
+   "name": "Vergeer geraspte kaas",
+   "price": "2,49"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Zuivel & kaas",
+   "name": "Noordertrots boerderijkaas",
+   "price": "7,00"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Voorraad",
+   "name": "Honig mix voor maaltijd of mealkit",
+   "price": "1,99"
+  },
+  {
+   "store": "poiesz",
+   "cat": "Voorraad",
+   "name": "Unox soep in zak",
+   "price": "3,15"
+  },
+  {
+   "store": "aldi",
+   "cat": "Vlees",
+   "name": "Kipdijfilet gemarineerd",
+   "price": "2,99",
+   "top": true,
+   "why": "Snel roerbakvlees, past bij rijst"
+  },
+  {
+   "store": "aldi",
+   "cat": "Vlees",
+   "name": "Gyros met paprika",
+   "price": "4,49",
+   "top": true,
+   "why": "Kant-en-klaar gekruid, ook voor 2 avonden"
+  },
+  {
+   "store": "aldi",
+   "cat": "Vlees",
+   "name": "Extra mager rundergehakt",
+   "price": "8,99",
+   "why": "Grote verpakking, helft invriezen"
+  },
+  {
+   "store": "aldi",
+   "cat": "Vlees",
+   "name": "Runderchipolata's",
+   "price": "3,49"
+  },
+  {
+   "store": "aldi",
+   "cat": "Vlees",
+   "name": "Kipbites",
+   "price": "4,99"
+  },
+  {
+   "store": "aldi",
+   "cat": "Vis",
+   "name": "Golden Seafood tonijnfilet",
+   "price": "1,99"
+  },
+  {
+   "store": "aldi",
+   "cat": "Groente & fruit",
+   "name": "Pompoen hokkaido",
+   "price": "0,99",
+   "top": true,
+   "why": "Eén pompoen = curry voor 2 avonden"
+  },
+  {
+   "store": "aldi",
+   "cat": "Groente & fruit",
+   "name": "Bloemkool",
+   "price": "1,39",
+   "top": true
+  },
+  {
+   "store": "aldi",
+   "cat": "Groente & fruit",
+   "name": "Eetrijpe avocado's",
+   "price": "1,79"
+  },
+  {
+   "store": "aldi",
+   "cat": "Groente & fruit",
+   "name": "Conference peren",
+   "price": "0,89"
+  },
+  {
+   "store": "aldi",
+   "cat": "Groente & fruit",
+   "name": "Pitloze rode druiven",
+   "price": "1,69"
+  },
+  {
+   "store": "aldi",
+   "cat": "Groente & fruit",
+   "name": "Kakifruit",
+   "price": "2,49"
+  },
+  {
+   "store": "aldi",
+   "cat": "Zuivel & kaas",
+   "name": "Gouda geraspte kaas",
+   "price": "1,49"
+  },
+  {
+   "store": "aldi",
+   "cat": "Voorraad",
+   "name": "Calvé saus 430 ml",
+   "price": "1,69",
+   "was": "3,59",
+   "top": true,
+   "why": "Ruim de helft korting"
+  },
+  {
+   "store": "aldi",
+   "cat": "Voorraad",
+   "name": "Grand'Italia pasta of pastasaus",
+   "price": "1,69"
+  },
+  {
+   "store": "aldi",
+   "cat": "Voorraad",
+   "name": "Gemarineerde semi-gedroogde tomaten",
+   "price": "1,39"
+  },
+  {
+   "store": "aldi",
+   "cat": "Vega",
+   "name": "Asia Green Garden samosa's",
+   "price": "2,49",
+   "why": "Vega bijgerecht bij curry"
+  },
+  {
+   "store": "lidl",
+   "cat": "Groente & fruit",
+   "name": "Spinazie",
+   "price": "0,99",
+   "top": true
+  },
+  {
+   "store": "lidl",
+   "cat": "Groente & fruit",
+   "name": "Spruiten",
+   "price": "1,29"
+  },
+  {
+   "store": "lidl",
+   "cat": "Groente & fruit",
+   "name": "Witlof",
+   "price": "0,99"
+  },
+  {
+   "store": "lidl",
+   "cat": "Groente & fruit",
+   "name": "Citroenen",
+   "price": "0,99"
+  },
+  {
+   "store": "lidl",
+   "cat": "Groente & fruit",
+   "name": "Ananas",
+   "price": "1,69",
+   "why": "Lekker in zoetzure roerbak"
+  },
+  {
+   "store": "lidl",
+   "cat": "Groente & fruit",
+   "name": "Conference peren",
+   "price": "0,89"
+  },
+  {
+   "store": "lidl",
+   "cat": "Vlees",
+   "name": "Schouderkarbonades",
+   "price": "5,69"
+  },
+  {
+   "store": "lidl",
+   "cat": "Vlees",
+   "name": "Braadworsten",
+   "price": "2,49"
+  },
+  {
+   "store": "lidl",
+   "cat": "Vega",
+   "name": "Plantaardige falafel of vega spinazie-kaas rondo",
+   "price": "1,29",
+   "top": true,
+   "why": "Goedkoop vega eiwit voor haar"
+  },
+  {
+   "store": "lidl",
+   "cat": "Zuivel & kaas",
+   "name": "Milbona jong belegen kaas, stuk",
+   "price": "4,29"
+  },
+  {
+   "store": "lidl",
+   "cat": "Zuivel & kaas",
+   "name": "Milbona belegen 30+, stuk",
+   "price": "3,99"
+  },
+  {
+   "store": "lidl",
+   "cat": "Zuivel & kaas",
+   "name": "Milbona jong belegen kaasplakken",
+   "price": "3,49"
+  },
+  {
+   "store": "lidl",
+   "cat": "Voorraad",
+   "name": "Mutti passata of polpa",
+   "price": "1,99"
+  },
+  {
+   "store": "lidl",
+   "cat": "Voorraad",
+   "name": "Combino spaghetti of penne",
+   "price": "0,79"
+  },
+  {
+   "store": "lidl",
+   "cat": "Voorraad",
+   "name": "Senseo koffiepads",
+   "price": "4,79",
+   "was": "6,98",
+   "top": true
+  },
+  {
+   "store": "lidl",
+   "cat": "Voorraad",
+   "name": "Tijger volkorenbrood",
+   "price": "1,09"
+  }
+ ],
+ "meals": [
+  {
+   "day": "Maandag",
+   "title": "Kipdij-roerbak met baby paksoi",
+   "time": "25 min",
+   "shared": "Baby paksoi met een zak roerbakgroenten (Nettorama) en wat ananas uit de wok met sojasaus, knoflook en gember. Jasmijnrijst.",
+   "him": "Gemarineerde kipdijfilet (Aldi), apart aangebraden",
+   "her": "Twee gebakken eieren met een scheut sojasaus",
+   "steps": [
+    "Zet 250 g jasmijnrijst op.",
+    "Snijd de kipdij in reepjes en bak in een aparte pan gaar, 6 tot 8 minuten.",
+    "Fruit knoflook en gember in de wok, voeg de roerbakgroenten toe, na 2 minuten de gehalveerde baby paksoi en een paar stukjes ananas.",
+    "Blus af met 3 el sojasaus en 1 el ketjap. Bak voor haar 2 eieren.",
+    "Verdeel de groenten, kip op zijn bord, eieren op het hare."
+   ]
+  },
+  {
+   "day": "Dinsdag",
+   "title": "Pompoencurry met spinazie",
+   "time": "35 min",
+   "shared": "Hokkaido in blokjes (schil mag eraan) met rode currypasta, kokosmelk en spinazie. Rijst.",
+   "him": "Gyros met paprika (Aldi), los erbij gebakken",
+   "her": "Samosa's (Aldi) uit de oven ernaast",
+   "steps": [
+    "Halveer de pompoen, schep de pitten eruit en snijd in blokjes van 2 cm. Houd de helft over voor donderdag.",
+    "Bak 2 el currypasta 1 minuut in olie, voeg pompoen en 400 ml kokosmelk toe. Laat 15 minuten zacht koken.",
+    "Zet de rijst op en de samosa's in de oven (volgens verpakking).",
+    "Bak de gyros in een aparte pan.",
+    "Roer op het laatst de spinazie door de curry tot die slinkt. Citroensap erover."
+   ]
+  },
+  {
+   "day": "Woensdag",
+   "title": "Chinese kool met gehakt of ei",
+   "time": "25 min",
+   "shared": "Chinese kool in reepjes, roergebakken met knoflook, sambal en oestersaus (vega: champignonsaus). Rijst.",
+   "him": "Gemengd gehakt (Nettorama) rul gebakken met ketjap; rest invriezen",
+   "her": "Roerei met lente-ui",
+   "steps": [
+    "Zet de rijst op.",
+    "Bak 250 g gehakt rul met 1 el ketjap. Vries de rest van de kilozak in porties in.",
+    "Roerbak de kool met knoflook en een theelepel sambal 4 minuten, nog knapperig.",
+    "Breng op smaak met vega oestersaus (champignonbasis), dan is de basis voor allebei goed.",
+    "Maak roerei van 3 eieren met lente-ui voor haar."
+   ]
+  },
+  {
+   "day": "Donderdag",
+   "title": "Geroosterde bloemkool & pompoen",
+   "time": "40 min",
+   "shared": "Bloemkoolroosjes en de rest van de pompoen uit de oven met komijn. Rijst en een citroen-yoghurtsaus.",
+   "him": "Schouderkarbonade (Lidl) uit de pan",
+   "her": "Falafel of spinazie-kaas rondo (Lidl)",
+   "steps": [
+    "Oven op 220 °C. Bloemkool en pompoen met olie, komijn en zout op een bakplaat, 25 minuten.",
+    "Zet de rijst op.",
+    "Roer yoghurt met citroensap, knoflook en peper tot saus.",
+    "Bak de karbonade 4 minuten per kant. Falafel of rondo de laatste 10 minuten mee de oven in.",
+    "Serveer met de saus."
+   ]
+  },
+  {
+   "day": "Vrijdag",
+   "title": "Gebakken rijst met spruitjes",
+   "time": "20 min",
+   "shared": "Restjes rijst gebakken met gehalveerde spruitjes (Nettorama), paksoi, ei en sojasaus.",
+   "him": "Braadworst (Lidl) in plakjes erdoor",
+   "her": "Extra ei en geraspte kaas erover",
+   "steps": [
+    "Kook spruitjes 4 minuten voor en halveer ze.",
+    "Bak de braadworst apart gaar en snijd in plakjes.",
+    "Bak de spruitjes in de wok bruin, voeg koude rijst toe en bak 5 minuten op hoog vuur.",
+    "Schuif opzij, roer 3 eieren erdoor, sojasaus erover.",
+    "Verdeel en geef hem de worst."
+   ]
+  }
+ ],
+ "shopping": [
+  {
+   "store": "Aldi",
+   "items": [
+    {
+     "name": "Kipdijfilet gemarineerd",
+     "deal": true
+    },
+    {
+     "name": "Gyros met paprika",
+     "deal": true
+    },
+    {
+     "name": "Pompoen hokkaido",
+     "deal": true
+    },
+    {
+     "name": "Bloemkool",
+     "deal": true
+    },
+    {
+     "name": "Asia Green Garden samosa's",
+     "deal": true
+    },
+    {
+     "name": "Gouda geraspte kaas",
+     "deal": true
+    }
+   ]
+  },
+  {
+   "store": "Lidl",
+   "items": [
+    {
+     "name": "Spinazie",
+     "deal": true
+    },
+    {
+     "name": "Ananas",
+     "deal": true
+    },
+    {
+     "name": "Citroenen",
+     "deal": true
+    },
+    {
+     "name": "Schouderkarbonades",
+     "deal": true
+    },
+    {
+     "name": "Braadworsten",
+     "deal": true
+    },
+    {
+     "name": "Plantaardige falafel of spinazie-kaas rondo",
+     "deal": true
+    }
+   ]
+  },
+  {
+   "store": "Nettorama",
+   "items": [
+    {
+     "name": "Gemengd gehakt, kilozak",
+     "deal": true
+    },
+    {
+     "name": "Verpakte spruiten, zak 500 g",
+     "deal": true
+    },
+    {
+     "name": "Roerbakgroenten, zak 400 g",
+     "deal": true
+    }
+   ]
+  },
+  {
+   "store": "Maakt niet uit waar",
+   "items": [
+    {
+     "name": "Baby paksoi (2 bakjes)"
+    },
+    {
+     "name": "Chinese kool"
+    },
+    {
+     "name": "Lente-ui"
+    },
+    {
+     "name": "Eieren (10)"
+    },
+    {
+     "name": "Kokosmelk 400 ml"
+    },
+    {
+     "name": "Rode currypasta"
+    },
+    {
+     "name": "Griekse yoghurt"
+    },
+    {
+     "name": "Jasmijnrijst 1 kg (als het op is)"
+    },
+    {
+     "name": "Vega oestersaus (champignon)"
+    }
+   ]
+  }
+ ]
+}

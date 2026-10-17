@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#2f7d3a">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>Staphorst Weekmenu</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="apple-mobile-web-app-title" content="Weekmenu">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@600;700&display=swap">
+<style>
+/* Layout: one phone column; sticky tab bar; deals as shelf labels, menu as day cards, list as tickable rows */
+:root{
+  --bg:#f3f5ef; --surface:#ffffff; --ink:#1c2419; --muted:#5e6a58; --line:#dde3d6;
+  --leaf:#2f7d3a; --leaf-soft:#e2efdf; --tag:#ffd83d; --tag-ink:#1c2419;
+  --aldi:#1f4f9e; --lidl:#0a5aa8; --poiesz:#4f9a2c; --netto:#c2361f;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121711; --surface:#1b2219; --ink:#e7ede2; --muted:#9daa96; --line:#2c3629;
+  --leaf:#7cc485; --leaf-soft:#20311f; --tag:#f5cf2e; --tag-ink:#1c2419;
+  --aldi:#7ea6ef; --lidl:#6fb0f0; --poiesz:#94d06e; --netto:#f08a74; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121711; --surface:#1b2219; --ink:#e7ede2; --muted:#9daa96; --line:#2c3629;
+  --leaf:#7cc485; --leaf-soft:#20311f; --tag:#f5cf2e; --tag-ink:#1c2419;
+  --aldi:#7ea6ef; --lidl:#6fb0f0; --poiesz:#94d06e; --netto:#f08a74; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:640px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+header h1{font:800 clamp(28px,8vw,40px)/1.05 var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance}
+.eyebrow{font:600 12px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--leaf);margin-bottom:8px}
+.sub{color:var(--muted);margin:8px 0 0}
+.stores{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:var(--surface)}
+.chip i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.chip.wait{color:var(--muted);border-style:dashed}
+.note{margin-top:14px;font-size:14px;padding:10px 12px;border-radius:8px;background:var(--leaf-soft);color:var(--ink)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);margin:20px 0 16px;padding-block:8px;display:flex;gap:6px;border-bottom:1px solid var(--line)}
+nav button{flex:1;font:600 15px var(--body);color:var(--muted);background:none;border:0;padding:10px 4px;border-radius:8px;cursor:pointer}
+nav button[aria-selected="true"]{color:var(--ink);background:var(--surface);box-shadow:inset 0 -3px 0 var(--leaf)}
+button:focus-visible,input:focus-visible+span{outline:2px solid var(--leaf);outline-offset:2px}
+h2{font:700 20px/1.2 var(--display);margin:24px 0 10px}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
+.filters button{font:500 13px var(--body);padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.deals{display:grid;gap:8px}
+.deal{display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:6px;padding:10px 12px}
+.deal .n{font-weight:600;min-width:0}
+.deal .m{font-size:13px;color:var(--muted);grid-column:1}
+.price{grid-row:1/3;grid-column:2;text-align:right}
+.price b{display:inline-block;font:700 18px var(--mono);background:var(--tag);color:var(--tag-ink);padding:2px 8px;border-radius:3px;font-variant-numeric:tabular-nums}
+.price s{display:block;font:600 12px var(--mono);color:var(--muted)}
+.star{color:var(--leaf);font-weight:700}
+.meal{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-bottom:12px;overflow:hidden}
+.meal summary{list-style:none;cursor:pointer;padding:14px 16px;display:grid;gap:2px}
+.meal summary::-webkit-details-marker{display:none}
+.meal .day{font:600 12px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--leaf)}
+.meal .t{font:700 19px/1.2 var(--display)}
+.meal .time{font-size:13px;color:var(--muted)}
+.meal .body{padding:0 16px 16px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.split div{background:var(--leaf-soft);border-radius:8px;padding:8px 10px;font-size:14px;min-width:0}
+.split b{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:420px){.split{grid-template-columns:1fr}}
+ol{padding-left:20px;margin:8px 0 0}ol li{margin-bottom:6px}
+.list{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:14px}
+.list h3{margin:0;padding:10px 14px;font:700 15px var(--display);border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+.list h3 small{font:500 13px var(--body);color:var(--muted)}
+.row{display:flex;align-items:center;gap:12px;padding:11px 14px;border-bottom:1px solid var(--line);cursor:pointer}
+.row:last-child{border-bottom:0}
+.row input{position:absolute;opacity:0;pointer-events:none}
+.box{flex:none;width:22px;height:22px;border:2px solid var(--muted);border-radius:6px;display:grid;place-items:center}
+.row input:checked+.box{background:var(--leaf);border-color:var(--leaf)}
+.row input:checked+.box::after{content:"";width:6px;height:11px;border:solid var(--bg);border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.row input:checked~.lbl{color:var(--muted);text-decoration:line-through}
+.lbl{flex:1;min-width:0}
+.tagmini{font:700 11px var(--mono);background:var(--tag);color:var(--tag-ink);padding:1px 6px;border-radius:3px}
+.reset{font:500 14px var(--body);background:none;border:1px solid var(--line);color:var(--ink);padding:8px 14px;border-radius:8px;cursor:pointer}
+footer{margin-top:32px;font-size:13px;color:var(--muted)}
+footer p{margin:6px 0}
+@media (prefers-reduced-motion:no-preference){.panel{animation:in .2s ease-out}@keyframes in{from{opacity:.4}to{opacity:1}}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow" id="wk">Week —</div>
+    <h1>Aanbiedingen &amp; weekmenu</h1>
+    <p class="sub" id="range">Laden…</p>
+    <div class="stores" id="stores"></div>
+    <div class="note" id="note" hidden></div>
+  </header>
+
+  <nav role="tablist">
+    <button role="tab" id="t-deals" aria-selected="true" data-p="deals">Deals</button>
+    <button role="tab" id="t-menu" aria-selected="false" data-p="menu">Menu</button>
+    <button role="tab" id="t-list" aria-selected="false" data-p="list">Boodschappen</button>
+  </nav>
+
+  <section class="panel" id="p-deals">
+    <h2>Beste deals</h2>
+    <div class="deals" id="top"></div>
+    <h2>Alle aanbiedingen</h2>
+    <div class="filters" id="filters"></div>
+    <div class="deals" id="all"></div>
+  </section>
+
+  <section class="panel" id="p-menu" hidden>
+    <h2>Vijf avonden, één pan voor twee</h2>
+    <p class="sub" style="margin-top:-4px">Eén basis voor allebei, vlees voor hem en een vega eiwit voor haar. Rijst, geen aardappelen.</p>
+    <div id="meals"></div>
+  </section>
+
+  <section class="panel" id="p-list" hidden>
+    <h2>Boodschappenlijst</h2>
+    <div id="lists"></div>
+    <button class="reset" id="reset" type="button">Alles weer leegmaken</button>
+  </section>
+
+  <footer>
+    <p>Prijzen zijn de folderprijzen per verpakking. Controleer in de winkel; filialen kunnen afwijken.</p>
+    <p><b>Op je telefoon zetten:</b> open deze pagina in Safari of Chrome en kies <i>Deel</i> of het menu ⋮, dan <i>Zet op beginscherm</i>.</p>
+    <p id="upd"></p>
+  </footer>
+</div>
+
+<script>
+const COLORS={aldi:"var(--aldi)",lidl:"var(--lidl)",poiesz:"var(--poiesz)",nettorama:"var(--netto)"};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let D=null, filter="Alles";
+const store=k=>{try{return JSON.parse(localStorage.getItem(k)||"{}")}catch(e){return{}}};
+const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+
+function tabs(){document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("nav button").forEach(x=>x.setAttribute("aria-selected",x===b));
+  ["deals","menu","list"].forEach(p=>$("#p-"+p).hidden=p!==b.dataset.p);
+  save("tab",{p:b.dataset.p});
+});const t=store("tab").p;if(t)$("#t-"+t)?.click();}
+
+function storeName(id){return (D.stores.find(s=>s.id===id)||{name:id}).name}
+function dealHTML(d){return `<div class="deal" style="--c:${COLORS[d.store]||"var(--muted)"}">
+  <div class="n">${d.top?'<span class="star">★ </span>':""}${esc(d.name)}</div>
+  <div class="m">${esc(storeName(d.store))} · ${esc(d.cat)}${d.why?" · "+esc(d.why):""}</div>
+  <div class="price"><b>€${esc(d.price)}</b>${d.was?`<s>€${esc(d.was)}</s>`:""}</div></div>`}
+
+function renderDeals(){
+  $("#top").innerHTML=D.deals.filter(d=>d.top).map(dealHTML).join("");
+  const cats=["Alles",...new Set(D.deals.map(d=>d.cat))];
+  $("#filters").innerHTML=cats.map(c=>`<button type="button" aria-pressed="${c===filter}">${esc(c)}</button>`).join("");
+  $("#filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{filter=b.textContent;renderDeals()});
+  $("#all").innerHTML=D.deals.filter(d=>filter==="Alles"||d.cat===filter).map(dealHTML).join("");
+}
+function renderMeals(){
+  $("#meals").innerHTML=D.meals.map((m,i)=>`<details class="meal"${i===0?" open":""}>
+    <summary><span class="day">${esc(m.day)}</span><span class="t">${esc(m.title)}</span><span class="time">${esc(m.time)} · ${esc(m.shared)}</span></summary>
+    <div class="body"><div class="split"><div><b>Hem</b>${esc(m.him)}</div><div><b>Haar (vega)</b>${esc(m.her)}</div></div>
+    <ol>${m.steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol></div></details>`).join("");
+}
+function renderList(){
+  const key="checks-w"+D.week, ch=store(key);
+  $("#lists").innerHTML=D.shopping.map((g,gi)=>{
+    const n=g.items.filter((_,ii)=>ch[gi+"-"+ii]).length;
+    return `<div class="list"><h3>${esc(g.store)}<small>${n}/${g.items.length}</small></h3>${g.items.map((it,ii)=>`
+      <label class="row"><input type="checkbox" id="c${gi}-${ii}" data-k="${gi}-${ii}"${ch[gi+"-"+ii]?" checked":""}><span class="box"></span>
+      <span class="lbl">${esc(it.name)}</span>${it.deal?'<span class="tagmini">DEAL</span>':""}</label>`).join("")}</div>`}).join("");
+  $("#lists").querySelectorAll("input").forEach(i=>i.onchange=()=>{const c=store(key);c[i.dataset.k]=i.checked;save(key,c);renderList()});
+  $("#reset").onclick=()=>{save(key,{});renderList()};
+}
+function render(){
+  $("#wk").textContent="Week "+D.week;
+  $("#range").textContent=D.range;
+  $("#stores").innerHTML=D.stores.map(s=>`<span class="chip${s.status==="compleet"?"":" wait"}" style="--c:${COLORS[s.id]}" title="${esc(s.note||s.valid)}"><i></i>${esc(s.name)}${s.status==="compleet"?"":" · volgt"}</span>`).join("");
+  if(D.note){$("#note").textContent=D.note;$("#note").hidden=false}else $("#note").hidden=true;
+  $("#upd").textContent="Bijgewerkt: "+D.updated;
+  renderDeals();renderMeals();renderList();
+}
+tabs();
+fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{D=j;render()})
+  .catch(()=>{$("#range").textContent="De aanbiedingen konden niet geladen worden. Herlaad de pagina."});
+</script>
+
+</body>
+</html>
