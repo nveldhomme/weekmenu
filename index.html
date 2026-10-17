@@ -4,15 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <meta name="theme-color" content="#2f7d3a">
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-</head>
-<body>
 <title>Staphorst Weekmenu</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="apple-mobile-web-app-title" content="Weekmenu">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@600;700&display=swap">
+</head>
+<body>
 <style>
 /* Layout: one phone column; sticky tab bar; deals as shelf labels, menu as day cards, list as tickable rows */
 :root{
@@ -187,6 +191,8 @@ function render(){
 tabs();
 fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(j=>{D=j;render()})
   .catch(()=>{$("#range").textContent="De aanbiedingen konden niet geladen worden. Herlaad de pagina."});
+
+if("serviceWorker" in navigator){window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})})}
 </script>
 
 </body>

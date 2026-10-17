@@ -1,0 +1,18 @@
+{
+  "name": "Staphorst Weekmenu",
+  "short_name": "Weekmenu",
+  "description": "Aanbiedingen van Aldi, Lidl, Poiesz en Nettorama met weekmenu en boodschappenlijst.",
+  "lang": "nl",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f5ef",
+  "theme_color": "#2f7d3a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
