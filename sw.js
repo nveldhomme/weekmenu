@@ -1,7 +1,7 @@
 // Service worker voor Staphorst Weekmenu.
 // Pagina en data.json: eerst het netwerk (zodat het menu van de nieuwe week direct zichtbaar is),
 // bij geen verbinding de laatst bewaarde versie. Iconen en lettertypen: eerst uit de cache.
-const CACHE = "weekmenu-v2";
+const CACHE = "weekmenu-v3";
 const CORE = ["./", "./index.html", "./data.json", "./manifest.json",
   "./icons/icon-192.png", "./icons/icon-512.png", "./icons/apple-touch-icon.png"];
 

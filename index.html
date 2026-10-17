@@ -63,6 +63,7 @@ h2{font:700 20px/1.2 var(--display);margin:24px 0 10px}
 .price s{font:600 13px var(--mono);color:var(--muted);text-decoration-thickness:2px}
 .price .nn{font:500 11px var(--body);color:var(--muted)}
 .pct{font:700 11px var(--mono);color:var(--leaf)}
+.unit{font:600 11px var(--mono);color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
 .star{color:var(--leaf);font-weight:700}
 .meal{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-bottom:12px;overflow:hidden}
 .meal summary{list-style:none;cursor:pointer;padding:14px 16px;display:grid;gap:2px}
@@ -136,7 +137,7 @@ footer p{margin:6px 0}
   </section>
 
   <footer>
-    <p>Doorgestreept staat de normale prijs, daaronder de aanbiedingsprijs. Prijzen zijn de folderprijzen per verpakking. Controleer in de winkel; filialen kunnen afwijken.</p>
+    <p>Doorgestreept staat de normale prijs, daaronder de aanbiedingsprijs en, als het gewicht bekend is, de prijs per kilo, liter of stuk. Prijzen zijn de folderprijzen per verpakking. Controleer in de winkel; filialen kunnen afwijken.</p>
     <p><b>Op je telefoon zetten:</b> open deze pagina in Safari of Chrome en kies <i>Deel</i> of het menu ⋮, dan <i>Zet op beginscherm</i>.</p>
     <p id="upd"></p>
   </footer>
@@ -160,7 +161,8 @@ function storeName(id){return (D.stores.find(s=>s.id===id)||{name:id}).name}
 function dealHTML(d){return `<div class="deal" style="--c:${COLORS[d.store]||"var(--muted)"}">
   <div class="n">${d.top?'<span class="star">★ </span>':""}${esc(d.name)}</div>
   <div class="m">${esc(storeName(d.store))} · ${esc(d.cat)}${d.why?" · "+esc(d.why):""}</div>
-  <div class="price">${d.was?`<s title="Normale prijs">€${esc(d.was)}</s>`:'<span class="nn">normaal: onbekend</span>'}<b>€${esc(d.price)}</b>${pct(d)}</div></div>`}
+  <div class="price">${d.was?`<s title="Normale prijs">€${esc(d.was)}</s>`:'<span class="nn">normaal: onbekend</span>'}<b>€${esc(d.price)}</b>${pct(d)}${unitPrice(d)}</div></div>`}
+function unitPrice(d){const n=parseFloat(String(d.price).replace(",",".")),s=Number(d.size);if(!(n>0&&s>0))return"";let v,u;if(d.unit==="g"){v=n/s*1000;u="kg"}else if(d.unit==="ml"){v=n/s*1000;u="liter"}else if(d.unit==="st"){v=n/s;u="stuk"}else return"";return `<span class="unit">€${v.toFixed(2).replace(".",",")} per ${u}</span>`}
 function pct(d){if(!d.was)return"";const a=parseFloat(String(d.was).replace(",",".")),b=parseFloat(String(d.price).replace(",","."));if(!(a>b))return"";return `<span class="pct">−${Math.round((1-b/a)*100)}%</span>`}
 
 const CAT_ORDER=["Groenten","Fruit","Vlees","Vis","Vega","Brood","Zuivel & eieren","Kaas","Diepvries","Voorraad","Drinken","Snoep & snacks"];

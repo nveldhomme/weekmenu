@@ -43,7 +43,9 @@
    "name": "Gemengd gehakt, per kilo",
    "price": "5,00",
    "top": true,
-   "why": "Kilozak; helft invriezen. Voor woensdag"
+   "why": "Kilozak; helft invriezen. Voor woensdag",
+   "size": 1000,
+   "unit": "g"
   },
   {
    "store": "nettorama",
@@ -51,7 +53,9 @@
    "name": "Roerbakgroenten, alle varianten, zak 400 g",
    "price": "1,69",
    "top": true,
-   "why": "Basis voor de wok"
+   "why": "Basis voor de wok",
+   "size": 400,
+   "unit": "g"
   },
   {
    "store": "nettorama",
@@ -59,37 +63,49 @@
    "name": "Verpakte spruiten, zak 500 g",
    "price": "0,80",
    "top": true,
-   "why": "Goedkoopste spruitjes deze week"
+   "why": "Goedkoopste spruitjes deze week",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "nettorama",
    "cat": "Vlees",
    "name": "Slagershuis rookworst, 225 g",
-   "price": "0,80"
+   "price": "0,80",
+   "size": 225,
+   "unit": "g"
   },
   {
    "store": "nettorama",
    "cat": "Vlees",
    "name": "Kipshoarma met paprika of kipgyros met ui, 400 g",
-   "price": "4,99"
+   "price": "4,99",
+   "size": 400,
+   "unit": "g"
   },
   {
    "store": "nettorama",
    "cat": "Vlees",
    "name": "Filetlapjes naturel of varkensfiletrollade, 500 g",
-   "price": "4,99"
+   "price": "4,99",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "nettorama",
    "cat": "Vlees",
-   "name": "Gehakt cordon bleu, slavink of boomstam, 5 stuks",
-   "price": "4,00"
+   "name": "Gehakt cordon bleu, slavink of boomstam, 5 stuks (500 g)",
+   "price": "4,00",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "nettorama",
    "cat": "Vlees",
    "name": "Gerookte spekreepjes, 125 g",
-   "price": "0,80"
+   "price": "0,80",
+   "size": 125,
+   "unit": "g"
   },
   {
    "store": "nettorama",
@@ -101,7 +117,9 @@
    "store": "nettorama",
    "cat": "Groenten",
    "name": "Smaak trostomaten, 400 g",
-   "price": "1,49"
+   "price": "1,49",
+   "size": 400,
+   "unit": "g"
   },
   {
    "store": "nettorama",
@@ -120,7 +138,9 @@
    "store": "nettorama",
    "cat": "Zuivel & eieren",
    "name": "Almhof roomyoghurt, 500 g",
-   "price": "1,49"
+   "price": "1,49",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "nettorama",
@@ -138,15 +158,19 @@
   {
    "store": "nettorama",
    "cat": "Brood",
-   "name": "Witte of volkoren bollen, zak 6 stuks",
+   "name": "Witte of volkoren bollen, 2 zakken à 6 stuks",
    "price": "1,75",
-   "why": "2 zakken"
+   "why": "2 zakken",
+   "size": 12,
+   "unit": "st"
   },
   {
    "store": "nettorama",
    "cat": "Voorraad",
    "name": "Douwe Egberts roodmerk of espresso bonen, 1 kg",
-   "price": "13,49"
+   "price": "13,49",
+   "size": 1000,
+   "unit": "g"
   },
   {
    "store": "poiesz",
@@ -333,7 +357,9 @@
    "price": "1,69",
    "was": "3,59",
    "top": true,
-   "why": "Ruim de helft korting"
+   "why": "Ruim de helft korting",
+   "size": 430,
+   "unit": "ml"
   },
   {
    "store": "aldi",
@@ -463,14 +489,18 @@
    "price": "2,69",
    "was": "5,38",
    "top": true,
-   "why": "Basis voor de wok, vanaf woensdag"
+   "why": "Basis voor de wok, vanaf woensdag",
+   "size": 800,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Voorraad",
    "name": "Jumbo's verse woksauzen, zak 225 g",
    "price": "2,02",
-   "was": "2,69"
+   "was": "2,69",
+   "size": 225,
+   "unit": "g"
   },
   {
    "store": "jumbo",
@@ -479,50 +509,64 @@
    "price": "3,00",
    "was": "6,00",
    "top": true,
-   "why": "Halve prijs"
+   "why": "Halve prijs",
+   "size": 600,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Vega",
-   "name": "De Vegetarische Slager of Oma's vleesvervangers, 2 dozen (1+1 gratis)",
+   "name": "De Vegetarische Slager of Oma's vleesvervangers, bv. 2 dozen à 350 g (1+1 gratis)",
    "price": "6,99",
    "was": "13,98",
    "top": true,
-   "why": "Vega eiwit voor haar"
+   "why": "Vega eiwit voor haar",
+   "size": 700,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Vega",
    "name": "Jumbo's plantaardig stoofvlees, 300 g (25% korting)",
    "price": "3,37",
-   "was": "4,49"
+   "was": "4,49",
+   "size": 300,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Fruit",
    "name": "Tessa appels, 2 tassen à 1 kg (1+1 gratis)",
    "price": "2,99",
-   "was": "5,98"
+   "was": "5,98",
+   "size": 2000,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Fruit",
    "name": "Nederlandse aardbeien, bak 400 g",
    "price": "2,99",
-   "was": "3,99"
+   "was": "3,99",
+   "size": 400,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Fruit",
    "name": "Zespri kiwi green, bak 1 kg",
    "price": "4,99",
-   "was": "6,49"
+   "was": "6,49",
+   "size": 1000,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Fruit",
    "name": "Mango eetrijp, schaal 2 stuks",
-   "price": "3,49"
+   "price": "3,49",
+   "size": 2,
+   "unit": "st"
   },
   {
    "store": "jumbo",
@@ -530,28 +574,36 @@
    "name": "Jumbo naanbrood of flatbread, zak 2 stuks (50% korting)",
    "price": "0,85",
    "was": "1,69",
-   "why": "Lekker bij de curry"
+   "why": "Lekker bij de curry",
+   "size": 2,
+   "unit": "st"
   },
   {
    "store": "jumbo",
    "cat": "Voorraad",
    "name": "Jumbo's pasta, 2 zakken à 500 g (1+1 gratis)",
    "price": "1,39",
-   "was": "2,78"
+   "was": "2,78",
+   "size": 1000,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Voorraad",
-   "name": "Jumbo's verse pasta of pastasaus, 2 stuks (1+1 gratis)",
+   "name": "Jumbo's verse pasta of pastasaus, bv. 2 zakken ravioli à 250 g (1+1 gratis)",
    "price": "2,99",
-   "was": "5,98"
+   "was": "5,98",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Voorraad",
-   "name": "Knorr Wereldgerechten, 5 dozen (2+3 gratis)",
+   "name": "Knorr Wereldgerechten, bv. 5 dozen à 303 g (2+3 gratis)",
    "price": "7,30",
-   "was": "18,25"
+   "was": "18,25",
+   "size": 1515,
+   "unit": "g"
   },
   {
    "store": "jumbo",
@@ -565,63 +617,81 @@
    "cat": "Zuivel & eieren",
    "name": "Optimel kwark/yoghurt, 2 bekers à 500 g (1+1 gratis)",
    "price": "2,39",
-   "was": "4,78"
+   "was": "4,78",
+   "size": 1000,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Zuivel & eieren",
-   "name": "XXL Nutrition zuivel, 2 stuks (1+1 gratis)",
+   "name": "XXL Nutrition zuivel, bv. 2 × 200 g (1+1 gratis)",
    "price": "1,99",
-   "was": "3,98"
+   "was": "3,98",
+   "size": 400,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Kaas",
    "name": "Galbani Parmigiano of andere harde kaas, 2 × 60 g (1+1 gratis)",
    "price": "2,39",
-   "was": "4,78"
+   "was": "4,78",
+   "size": 120,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Kaas",
-   "name": "La Vache qui rit of Mini Babybel (1+1 gratis)",
+   "name": "La Vache qui rit of Mini Babybel, bv. 2 × 120 g (1+1 gratis)",
    "price": "2,19",
-   "was": "4,38"
+   "was": "4,38",
+   "size": 240,
+   "unit": "g"
   },
   {
    "store": "jumbo",
    "cat": "Diepvries",
-   "name": "Hertog ijs, 2 bakjes (1+1 gratis)",
+   "name": "Hertog ijs, 2 bakjes à 200 ml (1+1 gratis)",
    "price": "1,95",
-   "was": "3,90"
+   "was": "3,90",
+   "size": 400,
+   "unit": "ml"
   },
   {
    "store": "jumbo",
    "cat": "Drinken",
    "name": "Coca-Cola of Fanta, 2 flessen à 1 liter (1+1 gratis)",
    "price": "2,19",
-   "was": "4,38"
+   "was": "4,38",
+   "size": 2000,
+   "unit": "ml"
   },
   {
    "store": "jumbo",
    "cat": "Drinken",
    "name": "DubbelFrisss of Taksi, 2 pakken à 1,5 liter (1+1 gratis)",
    "price": "1,85",
-   "was": "3,70"
+   "was": "3,70",
+   "size": 3000,
+   "unit": "ml"
   },
   {
    "store": "jumbo",
    "cat": "Drinken",
    "name": "Jumbo's koffiepads, 2 zakken à 36 stuks (1+1 gratis)",
    "price": "5,79",
-   "was": "11,58"
+   "was": "11,58",
+   "size": 72,
+   "unit": "st"
   },
   {
    "store": "jumbo",
    "cat": "Drinken",
-   "name": "Clipper thee, 2 doosjes (1+1 gratis)",
+   "name": "Clipper thee, 2 doosjes à 20 zakjes (1+1 gratis)",
    "price": "3,79",
-   "was": "7,58"
+   "was": "7,58",
+   "size": 40,
+   "unit": "st"
   },
   {
    "store": "jumbo",
