@@ -54,9 +54,11 @@ h2{font:700 20px/1.2 var(--display);margin:24px 0 10px}
 .deal{display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:6px;padding:10px 12px}
 .deal .n{font-weight:600;min-width:0}
 .deal .m{font-size:13px;color:var(--muted);grid-column:1}
-.price{grid-row:1/3;grid-column:2;text-align:right}
+.price{grid-row:1/3;grid-column:2;text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:3px}
 .price b{display:inline-block;font:700 18px var(--mono);background:var(--tag);color:var(--tag-ink);padding:2px 8px;border-radius:3px;font-variant-numeric:tabular-nums}
-.price s{display:block;font:600 12px var(--mono);color:var(--muted)}
+.price s{font:600 13px var(--mono);color:var(--muted);text-decoration-thickness:2px}
+.price .nn{font:500 11px var(--body);color:var(--muted)}
+.pct{font:700 11px var(--mono);color:var(--leaf)}
 .star{color:var(--leaf);font-weight:700}
 .meal{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-bottom:12px;overflow:hidden}
 .meal summary{list-style:none;cursor:pointer;padding:14px 16px;display:grid;gap:2px}
@@ -124,7 +126,7 @@ footer p{margin:6px 0}
   </section>
 
   <footer>
-    <p>Prijzen zijn de folderprijzen per verpakking. Controleer in de winkel; filialen kunnen afwijken.</p>
+    <p>Doorgestreept staat de normale prijs, daaronder de aanbiedingsprijs. Prijzen zijn de folderprijzen per verpakking. Controleer in de winkel; filialen kunnen afwijken.</p>
     <p><b>Op je telefoon zetten:</b> open deze pagina in Safari of Chrome en kies <i>Deel</i> of het menu ⋮, dan <i>Zet op beginscherm</i>.</p>
     <p id="upd"></p>
   </footer>
@@ -148,7 +150,8 @@ function storeName(id){return (D.stores.find(s=>s.id===id)||{name:id}).name}
 function dealHTML(d){return `<div class="deal" style="--c:${COLORS[d.store]||"var(--muted)"}">
   <div class="n">${d.top?'<span class="star">★ </span>':""}${esc(d.name)}</div>
   <div class="m">${esc(storeName(d.store))} · ${esc(d.cat)}${d.why?" · "+esc(d.why):""}</div>
-  <div class="price"><b>€${esc(d.price)}</b>${d.was?`<s>€${esc(d.was)}</s>`:""}</div></div>`}
+  <div class="price">${d.was?`<s title="Normale prijs">€${esc(d.was)}</s>`:'<span class="nn">normaal: onbekend</span>'}<b>€${esc(d.price)}</b>${pct(d)}</div></div>`}
+function pct(d){if(!d.was)return"";const a=parseFloat(String(d.was).replace(",",".")),b=parseFloat(String(d.price).replace(",","."));if(!(a>b))return"";return `<span class="pct">−${Math.round((1-b/a)*100)}%</span>`}
 
 function renderDeals(){
   $("#top").innerHTML=D.deals.filter(d=>d.top).map(dealHTML).join("");
