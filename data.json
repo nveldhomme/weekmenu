@@ -26,9 +26,16 @@
    "name": "Nettorama",
    "status": "compleet",
    "valid": "ma 19 t/m zo 25 okt"
+  },
+  {
+   "id": "jumbo",
+   "name": "Jumbo",
+   "status": "compleet",
+   "valid": "wo 21 t/m di 27 okt",
+   "note": "Jumbo Meppel; Jumbo-acties lopen van woensdag t/m dinsdag"
   }
  ],
- "note": "Poiesz geldt van zondag 18 t/m zaterdag 24 oktober, de andere drie van maandag 19 t/m zondag 25 oktober.",
+ "note": "Poiesz geldt zo 18 t/m za 24 okt, Aldi/Lidl/Nettorama ma 19 t/m zo 25 okt, Jumbo wo 21 t/m di 27 okt.",
  "deals": [
   {
    "store": "nettorama",
@@ -448,6 +455,180 @@
    "cat": "Brood",
    "name": "Tijger volkorenbrood",
    "price": "1,09"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Groenten",
+   "name": "Jumbo wokgroenten, 2 zakken à 400 g (1+1 gratis)",
+   "price": "2,69",
+   "was": "5,38",
+   "top": true,
+   "why": "Basis voor de wok, vanaf woensdag"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Voorraad",
+   "name": "Jumbo's verse woksauzen, zak 225 g",
+   "price": "2,02",
+   "was": "2,69"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Vlees",
+   "name": "Gegrilde of gepaneerde kip (kipbuckets/kipsticks), 600 g",
+   "price": "3,00",
+   "was": "6,00",
+   "top": true,
+   "why": "Halve prijs"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Vega",
+   "name": "De Vegetarische Slager of Oma's vleesvervangers, 2 dozen (1+1 gratis)",
+   "price": "6,99",
+   "was": "13,98",
+   "top": true,
+   "why": "Vega eiwit voor haar"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Vega",
+   "name": "Jumbo's plantaardig stoofvlees, 300 g (25% korting)",
+   "price": "3,37",
+   "was": "4,49"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Fruit",
+   "name": "Tessa appels, 2 tassen à 1 kg (1+1 gratis)",
+   "price": "2,99",
+   "was": "5,98"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Fruit",
+   "name": "Nederlandse aardbeien, bak 400 g",
+   "price": "2,99",
+   "was": "3,99"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Fruit",
+   "name": "Zespri kiwi green, bak 1 kg",
+   "price": "4,99",
+   "was": "6,49"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Fruit",
+   "name": "Mango eetrijp, schaal 2 stuks",
+   "price": "3,49"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Brood",
+   "name": "Jumbo naanbrood of flatbread, zak 2 stuks (50% korting)",
+   "price": "0,85",
+   "was": "1,69",
+   "why": "Lekker bij de curry"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Voorraad",
+   "name": "Jumbo's pasta, 2 zakken à 500 g (1+1 gratis)",
+   "price": "1,39",
+   "was": "2,78"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Voorraad",
+   "name": "Jumbo's verse pasta of pastasaus, 2 stuks (1+1 gratis)",
+   "price": "2,99",
+   "was": "5,98"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Voorraad",
+   "name": "Knorr Wereldgerechten, 5 dozen (2+3 gratis)",
+   "price": "7,30",
+   "was": "18,25"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Voorraad",
+   "name": "Knorr Cup-a-Soup of Good Noodles, 5 stuks (2+3 gratis)",
+   "price": "4,38",
+   "was": "10,95"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Zuivel & eieren",
+   "name": "Optimel kwark/yoghurt, 2 bekers à 500 g (1+1 gratis)",
+   "price": "2,39",
+   "was": "4,78"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Zuivel & eieren",
+   "name": "XXL Nutrition zuivel, 2 stuks (1+1 gratis)",
+   "price": "1,99",
+   "was": "3,98"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Kaas",
+   "name": "Galbani Parmigiano of andere harde kaas, 2 × 60 g (1+1 gratis)",
+   "price": "2,39",
+   "was": "4,78"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Kaas",
+   "name": "La Vache qui rit of Mini Babybel (1+1 gratis)",
+   "price": "2,19",
+   "was": "4,38"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Diepvries",
+   "name": "Hertog ijs, 2 bakjes (1+1 gratis)",
+   "price": "1,95",
+   "was": "3,90"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Drinken",
+   "name": "Coca-Cola of Fanta, 2 flessen à 1 liter (1+1 gratis)",
+   "price": "2,19",
+   "was": "4,38"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Drinken",
+   "name": "DubbelFrisss of Taksi, 2 pakken à 1,5 liter (1+1 gratis)",
+   "price": "1,85",
+   "was": "3,70"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Drinken",
+   "name": "Jumbo's koffiepads, 2 zakken à 36 stuks (1+1 gratis)",
+   "price": "5,79",
+   "was": "11,58"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Drinken",
+   "name": "Clipper thee, 2 doosjes (1+1 gratis)",
+   "price": "3,79",
+   "was": "7,58"
+  },
+  {
+   "store": "jumbo",
+   "cat": "Snoep & snacks",
+   "name": "Verkade koek of chocolade, 2 stuks (1+1 gratis)",
+   "price": "1,95",
+   "was": "3,90"
   }
  ],
  "meals": [

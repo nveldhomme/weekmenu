@@ -22,7 +22,7 @@
 :root{
   --bg:#f3f5ef; --surface:#ffffff; --ink:#1c2419; --muted:#5e6a58; --line:#dde3d6;
   --leaf:#2f7d3a; --leaf-soft:#e2efdf; --tag:#ffd83d; --tag-ink:#1c2419;
-  --aldi:#1f4f9e; --lidl:#0a5aa8; --poiesz:#4f9a2c; --netto:#c2361f;
+  --aldi:#1f4f9e; --lidl:#0a5aa8; --poiesz:#4f9a2c; --netto:#c2361f; --jumbo:#c99300;
   --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
   --body:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,sans-serif;
   --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
@@ -30,11 +30,11 @@
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#121711; --surface:#1b2219; --ink:#e7ede2; --muted:#9daa96; --line:#2c3629;
   --leaf:#7cc485; --leaf-soft:#20311f; --tag:#f5cf2e; --tag-ink:#1c2419;
-  --aldi:#7ea6ef; --lidl:#6fb0f0; --poiesz:#94d06e; --netto:#f08a74; color-scheme:dark}}
+  --aldi:#7ea6ef; --lidl:#6fb0f0; --poiesz:#94d06e; --netto:#f08a74; --jumbo:#f2c94c; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#121711; --surface:#1b2219; --ink:#e7ede2; --muted:#9daa96; --line:#2c3629;
   --leaf:#7cc485; --leaf-soft:#20311f; --tag:#f5cf2e; --tag-ink:#1c2419;
-  --aldi:#7ea6ef; --lidl:#6fb0f0; --poiesz:#94d06e; --netto:#f08a74; color-scheme:dark}
+  --aldi:#7ea6ef; --lidl:#6fb0f0; --poiesz:#94d06e; --netto:#f08a74; --jumbo:#f2c94c; color-scheme:dark}
 body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 .wrap{max-width:640px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
@@ -143,7 +143,7 @@ footer p{margin:6px 0}
 </div>
 
 <script>
-const COLORS={aldi:"var(--aldi)",lidl:"var(--lidl)",poiesz:"var(--poiesz)",nettorama:"var(--netto)"};
+const COLORS={aldi:"var(--aldi)",lidl:"var(--lidl)",poiesz:"var(--poiesz)",nettorama:"var(--netto)",jumbo:"var(--jumbo)"};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let D=null, filter="Alles";
@@ -190,8 +190,8 @@ function shopItems(){
   if(s.length&&s[0].items) return s.flatMap(g=>g.items.map(it=>({...it,store:it.store||g.store})));
   return s;
 }
-const STORE_ORDER=["Aldi","Lidl","Poiesz","Nettorama","Overal"];
-const STORE_COLOR={aldi:"var(--aldi)",lidl:"var(--lidl)",poiesz:"var(--poiesz)",nettorama:"var(--netto)"};
+const STORE_ORDER=["Aldi","Lidl","Poiesz","Nettorama","Jumbo","Overal"];
+const STORE_COLOR={aldi:"var(--aldi)",lidl:"var(--lidl)",poiesz:"var(--poiesz)",nettorama:"var(--netto)",jumbo:"var(--jumbo)"};
 function renderList(){
   const key="checks-w"+D.week, ch=store(key), items=shopItems();
   const mode=store("listmode").m==="store"?"store":"cat";
