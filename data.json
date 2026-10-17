@@ -40,7 +40,7 @@
   },
   {
    "store": "nettorama",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Roerbakgroenten, alle varianten, zak 400 g",
    "price": "1,69",
    "top": true,
@@ -48,7 +48,7 @@
   },
   {
    "store": "nettorama",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Verpakte spruiten, zak 500 g",
    "price": "0,80",
    "top": true,
@@ -86,45 +86,45 @@
   },
   {
    "store": "nettorama",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Groentemix, broccoli- of bloemkoolroosjes, sperziebonen, pompoenblokjes, zak 350/400 g",
    "price": "1,79"
   },
   {
    "store": "nettorama",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Smaak trostomaten, 400 g",
    "price": "1,49"
   },
   {
    "store": "nettorama",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Druiven, blauwe bessen of ananas",
    "price": "3,50",
    "why": "2 stuks"
   },
   {
    "store": "nettorama",
-   "cat": "Zuivel & kaas",
+   "cat": "Kaas",
    "name": "Maaslander gesneden kaas, 140-150 g",
    "price": "1,79"
   },
   {
    "store": "nettorama",
-   "cat": "Zuivel & kaas",
+   "cat": "Zuivel & eieren",
    "name": "Almhof roomyoghurt, 500 g",
    "price": "1,49"
   },
   {
    "store": "nettorama",
-   "cat": "Zuivel & kaas",
+   "cat": "Zuivel & eieren",
    "name": "Zuivelhoeve XXL Nutrition, alle varianten",
    "price": "3,00",
    "why": "2 stuks"
   },
   {
    "store": "nettorama",
-   "cat": "Zuivel & kaas",
+   "cat": "Zuivel & eieren",
    "name": "Melkan koffiemelk, fles 186/188 ml",
    "price": "0,80"
   },
@@ -169,31 +169,31 @@
   },
   {
    "store": "poiesz",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Prei kort",
    "price": "0,50"
   },
   {
    "store": "poiesz",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Spruiten",
    "price": "1,00"
   },
   {
    "store": "poiesz",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Boeren of fijne soepgroente",
    "price": "1,50"
   },
   {
    "store": "poiesz",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Doyenne du Comice handperen of Kanzi appels",
    "price": "2,00"
   },
   {
    "store": "poiesz",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Zespri Sungold kiwi",
    "price": "3,00"
   },
@@ -211,13 +211,13 @@
   },
   {
    "store": "poiesz",
-   "cat": "Zuivel & kaas",
+   "cat": "Kaas",
    "name": "Vergeer geraspte kaas",
    "price": "2,49"
   },
   {
    "store": "poiesz",
-   "cat": "Zuivel & kaas",
+   "cat": "Kaas",
    "name": "Noordertrots boerderijkaas",
    "price": "7,00"
   },
@@ -276,7 +276,7 @@
   },
   {
    "store": "aldi",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Pompoen hokkaido",
    "price": "0,99",
    "top": true,
@@ -284,38 +284,38 @@
   },
   {
    "store": "aldi",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Bloemkool",
    "price": "1,39",
    "top": true
   },
   {
    "store": "aldi",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Eetrijpe avocado's",
    "price": "1,79"
   },
   {
    "store": "aldi",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Conference peren",
    "price": "0,89"
   },
   {
    "store": "aldi",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Pitloze rode druiven",
    "price": "1,69"
   },
   {
    "store": "aldi",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Kakifruit",
    "price": "2,49"
   },
   {
    "store": "aldi",
-   "cat": "Zuivel & kaas",
+   "cat": "Kaas",
    "name": "Gouda geraspte kaas",
    "price": "1,49"
   },
@@ -349,39 +349,39 @@
   },
   {
    "store": "lidl",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Spinazie",
    "price": "0,99",
    "top": true
   },
   {
    "store": "lidl",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Spruiten",
    "price": "1,29"
   },
   {
    "store": "lidl",
-   "cat": "Groente & fruit",
+   "cat": "Groenten",
    "name": "Witlof",
    "price": "0,99"
   },
   {
    "store": "lidl",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Citroenen",
    "price": "0,99"
   },
   {
    "store": "lidl",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Ananas",
    "price": "1,69",
    "why": "Lekker in zoetzure roerbak"
   },
   {
    "store": "lidl",
-   "cat": "Groente & fruit",
+   "cat": "Fruit",
    "name": "Conference peren",
    "price": "0,89"
   },
@@ -407,19 +407,19 @@
   },
   {
    "store": "lidl",
-   "cat": "Zuivel & kaas",
+   "cat": "Kaas",
    "name": "Milbona jong belegen kaas, stuk",
    "price": "4,29"
   },
   {
    "store": "lidl",
-   "cat": "Zuivel & kaas",
+   "cat": "Zuivel & eieren",
    "name": "Milbona belegen 30+, stuk",
    "price": "3,99"
   },
   {
    "store": "lidl",
-   "cat": "Zuivel & kaas",
+   "cat": "Kaas",
    "name": "Milbona jong belegen kaasplakken",
    "price": "3,49"
   },
@@ -445,7 +445,7 @@
   },
   {
    "store": "lidl",
-   "cat": "Voorraad",
+   "cat": "Brood",
    "name": "Tijger volkorenbrood",
    "price": "1,09"
   }
@@ -529,111 +529,153 @@
  ],
  "shopping": [
   {
+   "name": "Kipdijfilet gemarineerd",
    "store": "Aldi",
-   "items": [
-    {
-     "name": "Kipdijfilet gemarineerd",
-     "deal": true
-    },
-    {
-     "name": "Gyros met paprika",
-     "deal": true
-    },
-    {
-     "name": "Pompoen hokkaido",
-     "deal": true
-    },
-    {
-     "name": "Bloemkool",
-     "deal": true
-    },
-    {
-     "name": "Asia Green Garden samosa's",
-     "deal": true
-    },
-    {
-     "name": "Gouda geraspte kaas",
-     "deal": true
-    }
-   ]
+   "cat": "Vlees",
+   "deal": true
   },
   {
+   "name": "Gyros met paprika",
+   "store": "Aldi",
+   "cat": "Vlees",
+   "deal": true
+  },
+  {
+   "name": "Pompoen hokkaido",
+   "store": "Aldi",
+   "cat": "Groenten",
+   "deal": true
+  },
+  {
+   "name": "Bloemkool",
+   "store": "Aldi",
+   "cat": "Groenten",
+   "deal": true
+  },
+  {
+   "name": "Asia Green Garden samosa's",
+   "store": "Aldi",
+   "cat": "Vega",
+   "deal": true
+  },
+  {
+   "name": "Gouda geraspte kaas",
+   "store": "Aldi",
+   "cat": "Kaas",
+   "deal": true
+  },
+  {
+   "name": "Spinazie",
    "store": "Lidl",
-   "items": [
-    {
-     "name": "Spinazie",
-     "deal": true
-    },
-    {
-     "name": "Ananas",
-     "deal": true
-    },
-    {
-     "name": "Citroenen",
-     "deal": true
-    },
-    {
-     "name": "Schouderkarbonades",
-     "deal": true
-    },
-    {
-     "name": "Braadworsten",
-     "deal": true
-    },
-    {
-     "name": "Plantaardige falafel of spinazie-kaas rondo",
-     "deal": true
-    }
-   ]
+   "cat": "Groenten",
+   "deal": true
   },
   {
+   "name": "Ananas",
+   "store": "Lidl",
+   "cat": "Fruit",
+   "deal": true
+  },
+  {
+   "name": "Citroenen",
+   "store": "Lidl",
+   "cat": "Fruit",
+   "deal": true
+  },
+  {
+   "name": "Schouderkarbonades",
+   "store": "Lidl",
+   "cat": "Vlees",
+   "deal": true
+  },
+  {
+   "name": "Braadworsten",
+   "store": "Lidl",
+   "cat": "Vlees",
+   "deal": true
+  },
+  {
+   "name": "Plantaardige falafel of spinazie-kaas rondo",
+   "store": "Lidl",
+   "cat": "Vega",
+   "deal": true
+  },
+  {
+   "name": "Gemengd gehakt, kilozak",
    "store": "Nettorama",
-   "items": [
-    {
-     "name": "Gemengd gehakt, kilozak",
-     "deal": true
-    },
-    {
-     "name": "Verpakte spruiten, zak 500 g",
-     "deal": true
-    },
-    {
-     "name": "Roerbakgroenten, zak 400 g",
-     "deal": true
-    }
-   ]
+   "cat": "Vlees",
+   "deal": true
   },
   {
-   "store": "Maakt niet uit waar",
-   "items": [
-    {
-     "name": "Baby paksoi (2 bakjes)"
-    },
-    {
-     "name": "Chinese kool"
-    },
-    {
-     "name": "Lente-ui"
-    },
-    {
-     "name": "Eieren (10)"
-    },
-    {
-     "name": "Kokosmelk 400 ml"
-    },
-    {
-     "name": "Rode currypasta"
-    },
-    {
-     "name": "Griekse yoghurt"
-    },
-    {
-     "name": "Jasmijnrijst 1 kg (als het op is)"
-    },
-    {
-     "name": "Vega oestersaus (champignon)"
-    }
-   ]
+   "name": "Verpakte spruiten, zak 500 g",
+   "store": "Nettorama",
+   "cat": "Groenten",
+   "deal": true
+  },
+  {
+   "name": "Roerbakgroenten, zak 400 g",
+   "store": "Nettorama",
+   "cat": "Groenten",
+   "deal": true
+  },
+  {
+   "name": "Baby paksoi (2 bakjes)",
+   "store": "Overal",
+   "cat": "Groenten"
+  },
+  {
+   "name": "Chinese kool",
+   "store": "Overal",
+   "cat": "Groenten"
+  },
+  {
+   "name": "Lente-ui",
+   "store": "Overal",
+   "cat": "Groenten"
+  },
+  {
+   "name": "Eieren (10)",
+   "store": "Overal",
+   "cat": "Zuivel & eieren"
+  },
+  {
+   "name": "Kokosmelk 400 ml",
+   "store": "Overal",
+   "cat": "Voorraad"
+  },
+  {
+   "name": "Rode currypasta",
+   "store": "Overal",
+   "cat": "Voorraad"
+  },
+  {
+   "name": "Griekse yoghurt",
+   "store": "Overal",
+   "cat": "Zuivel & eieren"
+  },
+  {
+   "name": "Jasmijnrijst 1 kg (als het op is)",
+   "store": "Overal",
+   "cat": "Voorraad"
+  },
+  {
+   "name": "Vega oestersaus (champignon)",
+   "store": "Overal",
+   "cat": "Voorraad"
   }
+ ],
+ "categories": [
+  "Groenten",
+  "Fruit",
+  "Vlees",
+  "Vis",
+  "Vega",
+  "Brood",
+  "Zuivel & eieren",
+  "Kaas",
+  "Diepvries",
+  "Voorraad",
+  "Drinken",
+  "Snoep & snacks"
  ]
 }

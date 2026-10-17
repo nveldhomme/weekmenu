@@ -87,6 +87,11 @@ ol{padding-left:20px;margin:8px 0 0}ol li{margin-bottom:6px}
 .row input:checked+.box::after{content:"";width:6px;height:11px;border:solid var(--bg);border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
 .row input:checked~.lbl{color:var(--muted);text-decoration:line-through}
 .lbl{flex:1;min-width:0}
+.where{display:block;font-size:12px;color:var(--muted)}
+.where::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--c);margin-right:6px;vertical-align:1px}
+.cathead{font:700 15px var(--display);margin:18px 0 8px;display:flex;align-items:baseline;gap:8px}
+.cathead small{font:500 13px var(--body);color:var(--muted)}
+#mode{margin-bottom:12px}
 .tagmini{font:700 11px var(--mono);background:var(--tag);color:var(--tag-ink);padding:1px 6px;border-radius:3px}
 .reset{font:500 14px var(--body);background:none;border:1px solid var(--line);color:var(--ink);padding:8px 14px;border-radius:8px;cursor:pointer}
 footer{margin-top:32px;font-size:13px;color:var(--muted)}
@@ -114,7 +119,7 @@ footer p{margin:6px 0}
     <div class="deals" id="top"></div>
     <h2>Alle aanbiedingen</h2>
     <div class="filters" id="filters"></div>
-    <div class="deals" id="all"></div>
+    <div id="all"></div>
   </section>
 
   <section class="panel" id="p-menu" hidden>
@@ -125,6 +130,7 @@ footer p{margin:6px 0}
 
   <section class="panel" id="p-list" hidden>
     <h2>Boodschappenlijst</h2>
+    <div class="filters" id="mode"><button type="button" data-m="cat" aria-pressed="true">Per afdeling</button><button type="button" data-m="store" aria-pressed="false">Per winkel</button></div>
     <div id="lists"></div>
     <button class="reset" id="reset" type="button">Alles weer leegmaken</button>
   </section>
@@ -157,12 +163,21 @@ function dealHTML(d){return `<div class="deal" style="--c:${COLORS[d.store]||"va
   <div class="price">${d.was?`<s title="Normale prijs">€${esc(d.was)}</s>`:'<span class="nn">normaal: onbekend</span>'}<b>€${esc(d.price)}</b>${pct(d)}</div></div>`}
 function pct(d){if(!d.was)return"";const a=parseFloat(String(d.was).replace(",",".")),b=parseFloat(String(d.price).replace(",","."));if(!(a>b))return"";return `<span class="pct">−${Math.round((1-b/a)*100)}%</span>`}
 
+const CAT_ORDER=["Groenten","Fruit","Vlees","Vis","Vega","Brood","Zuivel & eieren","Kaas","Diepvries","Voorraad","Drinken","Snoep & snacks"];
+function catOrder(){return D.categories&&D.categories.length?D.categories:CAT_ORDER}
+function groupBy(items,keyFn,order){
+  const m=new Map();items.forEach(it=>{const k=keyFn(it)||"Overig";if(!m.has(k))m.set(k,[]);m.get(k).push(it)});
+  const keys=[...m.keys()].sort((a,b)=>{const ia=order.indexOf(a),ib=order.indexOf(b);return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b)});
+  return keys.map(k=>[k,m.get(k)]);
+}
 function renderDeals(){
   $("#top").innerHTML=D.deals.filter(d=>d.top).map(dealHTML).join("");
-  const cats=["Alles",...new Set(D.deals.map(d=>d.cat))];
-  $("#filters").innerHTML=cats.map(c=>`<button type="button" aria-pressed="${c===filter}">${esc(c)}</button>`).join("");
+  const groups=groupBy(D.deals,d=>d.cat,catOrder());
+  if(filter!=="Alles"&&!groups.some(([c])=>c===filter))filter="Alles";
+  $("#filters").innerHTML=["Alles",...groups.map(([c])=>c)].map(c=>`<button type="button" aria-pressed="${c===filter}">${esc(c)}</button>`).join("");
   $("#filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{filter=b.textContent;renderDeals()});
-  $("#all").innerHTML=D.deals.filter(d=>filter==="Alles"||d.cat===filter).map(dealHTML).join("");
+  $("#all").innerHTML=groups.filter(([c])=>filter==="Alles"||c===filter)
+    .map(([c,items])=>`<h3 class="cathead">${esc(c)} <small>${items.length}</small></h3><div class="deals">${items.map(dealHTML).join("")}</div>`).join("");
 }
 function renderMeals(){
   $("#meals").innerHTML=D.meals.map((m,i)=>`<details class="meal"${i===0?" open":""}>
@@ -170,13 +185,26 @@ function renderMeals(){
     <div class="body"><div class="split"><div><b>Hem</b>${esc(m.him)}</div><div><b>Haar (vega)</b>${esc(m.her)}</div></div>
     <ol>${m.steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol></div></details>`).join("");
 }
+function shopItems(){
+  const s=D.shopping||[];
+  if(s.length&&s[0].items) return s.flatMap(g=>g.items.map(it=>({...it,store:it.store||g.store})));
+  return s;
+}
+const STORE_ORDER=["Aldi","Lidl","Poiesz","Nettorama","Overal"];
+const STORE_COLOR={aldi:"var(--aldi)",lidl:"var(--lidl)",poiesz:"var(--poiesz)",nettorama:"var(--netto)"};
 function renderList(){
-  const key="checks-w"+D.week, ch=store(key);
-  $("#lists").innerHTML=D.shopping.map((g,gi)=>{
-    const n=g.items.filter((_,ii)=>ch[gi+"-"+ii]).length;
-    return `<div class="list"><h3>${esc(g.store)}<small>${n}/${g.items.length}</small></h3>${g.items.map((it,ii)=>`
-      <label class="row"><input type="checkbox" id="c${gi}-${ii}" data-k="${gi}-${ii}"${ch[gi+"-"+ii]?" checked":""}><span class="box"></span>
-      <span class="lbl">${esc(it.name)}</span>${it.deal?'<span class="tagmini">DEAL</span>':""}</label>`).join("")}</div>`}).join("");
+  const key="checks-w"+D.week, ch=store(key), items=shopItems();
+  const mode=store("listmode").m==="store"?"store":"cat";
+  $("#mode").querySelectorAll("button").forEach(b=>{b.setAttribute("aria-pressed",b.dataset.m===mode);b.onclick=()=>{save("listmode",{m:b.dataset.m});renderList()}});
+  const groups=mode==="store"?groupBy(items,i=>i.store,STORE_ORDER):groupBy(items,i=>i.cat,catOrder());
+  const k=it=>(it.store||"")+"|"+it.name;
+  $("#lists").innerHTML=groups.map(([g,list],gi)=>{
+    const n=list.filter(it=>ch[k(it)]).length;
+    return `<div class="list"><h3>${esc(g)}<small>${n}/${list.length}</small></h3>${list.map((it,ii)=>{
+      const sub=mode==="store"?(it.cat||""):(it.store||"");
+      const col=mode==="cat"?(STORE_COLOR[(it.store||"").toLowerCase()]||"var(--muted)"):"var(--muted)";
+      return `<label class="row"><input type="checkbox" id="c${gi}-${ii}" data-k="${esc(k(it))}"${ch[k(it)]?" checked":""}><span class="box"></span>
+      <span class="lbl">${esc(it.name)}${sub?`<span class="where" style="--c:${col}">${esc(sub)}</span>`:""}</span>${it.deal?'<span class="tagmini">DEAL</span>':""}</label>`}).join("")}</div>`}).join("");
   $("#lists").querySelectorAll("input").forEach(i=>i.onchange=()=>{const c=store(key);c[i.dataset.k]=i.checked;save(key,c);renderList()});
   $("#reset").onclick=()=>{save(key,{});renderList()};
 }
