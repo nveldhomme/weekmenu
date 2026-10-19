@@ -175,16 +175,20 @@
   {
    "store": "poiesz",
    "cat": "Vlees",
-   "name": "Kipdijshoarma of kipdijgyros",
+   "name": "Kipdijshoarma of kipdijgyros, 400 g",
    "price": "4,00",
    "top": true,
-   "why": "Kipdij voor de wok"
+   "why": "Kipdij voor de wok",
+   "size": 400,
+   "unit": "g"
   },
   {
    "store": "poiesz",
    "cat": "Vlees",
-   "name": "Runderlappen of hacheevlees",
-   "price": "7,99"
+   "name": "Runderlappen of hacheevlees, 500 g",
+   "price": "7,99",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "poiesz",
@@ -195,8 +199,10 @@
   {
    "store": "poiesz",
    "cat": "Vis",
-   "name": "Roerbakgarnalen knoflook",
-   "price": "3,50"
+   "name": "Roerbakgarnalen knoflook, pakje à 150 g",
+   "price": "3,50",
+   "size": 150,
+   "unit": "g"
   },
   {
    "store": "poiesz",
@@ -207,62 +213,76 @@
   {
    "store": "poiesz",
    "cat": "Groenten",
-   "name": "Spruiten",
-   "price": "1,00"
+   "name": "Spruiten, zak 500 g",
+   "price": "1,00",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "poiesz",
    "cat": "Groenten",
-   "name": "Boeren of fijne soepgroente",
+   "name": "Boeren of fijne soepgroente, zak 350/400 g",
    "price": "1,50"
   },
   {
    "store": "poiesz",
    "cat": "Fruit",
-   "name": "Doyenne du Comice handperen of Kanzi appels",
-   "price": "2,00"
+   "name": "Doyenne du Comice handperen of Kanzi appels, per kilo",
+   "price": "2,00",
+   "size": 1000,
+   "unit": "g"
   },
   {
    "store": "poiesz",
    "cat": "Fruit",
-   "name": "Zespri Sungold kiwi",
-   "price": "3,00"
+   "name": "Zespri Sungold kiwi, 500 g",
+   "price": "3,00",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "poiesz",
    "cat": "Vega",
-   "name": "Alpro houdbare drinks, desserts of soya cuisine",
-   "price": "1,89"
+   "name": "Alpro houdbare drinks, desserts of soya cuisine, 2 stuks (1+1 gratis)",
+   "price": "1,89",
+   "was": "3,78"
   },
   {
    "store": "poiesz",
    "cat": "Vega",
-   "name": "Premium quiche",
-   "price": "5,00"
+   "name": "Premium quiche, 400 g",
+   "price": "5,00",
+   "size": 400,
+   "unit": "g"
   },
   {
    "store": "poiesz",
    "cat": "Kaas",
-   "name": "Vergeer geraspte kaas",
-   "price": "2,49"
+   "name": "Vergeer geraspte kaas, 2 zakjes à 150/200 g (1+1 gratis)",
+   "price": "2,49",
+   "was": "4,98"
   },
   {
    "store": "poiesz",
    "cat": "Kaas",
-   "name": "Noordertrots boerderijkaas",
+   "name": "Noordertrots boerderijkaas, stuk ca. 500 g",
    "price": "7,00"
   },
   {
    "store": "poiesz",
    "cat": "Voorraad",
-   "name": "Honig mix voor maaltijd of mealkit",
-   "price": "1,99"
+   "name": "Honig mix voor maaltijd of mealkit, 2 pakjes (1+1 gratis)",
+   "price": "1,99",
+   "was": "3,98"
   },
   {
    "store": "poiesz",
    "cat": "Voorraad",
-   "name": "Unox soep in zak",
-   "price": "3,15"
+   "name": "Unox soep in zak, 2 zakken à 570 ml (1+1 gratis)",
+   "price": "3,15",
+   "was": "6,30",
+   "size": 1140,
+   "unit": "ml"
   },
   {
    "store": "aldi",
@@ -275,17 +295,23 @@
   {
    "store": "aldi",
    "cat": "Vlees",
-   "name": "Gyros met paprika",
+   "name": "Gyros met paprika, 750 g",
    "price": "4,49",
    "top": true,
-   "why": "Kant-en-klaar gekruid, ook voor 2 avonden"
+   "why": "Kant-en-klaar gekruid, ook voor 2 avonden",
+   "was": "7,49",
+   "size": 750,
+   "unit": "g"
   },
   {
    "store": "aldi",
    "cat": "Vlees",
-   "name": "Extra mager rundergehakt",
+   "name": "Extra mager rundergehakt, 750 g",
    "price": "8,99",
-   "why": "Grote verpakking, helft invriezen"
+   "why": "Grote verpakking, helft invriezen",
+   "was": "11,05",
+   "size": 750,
+   "unit": "g"
   },
   {
    "store": "aldi",
@@ -302,16 +328,22 @@
   {
    "store": "aldi",
    "cat": "Vis",
-   "name": "Golden Seafood tonijnfilet",
-   "price": "1,99"
+   "name": "Golden Seafood tonijnfilet, 3 × 80 g",
+   "price": "1,99",
+   "was": "2,79",
+   "size": 240,
+   "unit": "g"
   },
   {
    "store": "aldi",
    "cat": "Groenten",
-   "name": "Pompoen hokkaido",
+   "name": "Pompoen hokkaido, per stuk",
    "price": "0,99",
    "top": true,
-   "why": "Eén pompoen = curry voor 2 avonden"
+   "why": "Eén pompoen = curry voor 2 avonden",
+   "was": "1,59",
+   "size": 1,
+   "unit": "st"
   },
   {
    "store": "aldi",
@@ -323,20 +355,29 @@
   {
    "store": "aldi",
    "cat": "Fruit",
-   "name": "Eetrijpe avocado's",
-   "price": "1,79"
+   "name": "Eetrijpe avocado's, 2 stuks",
+   "price": "1,79",
+   "was": "2,49",
+   "size": 2,
+   "unit": "st"
   },
   {
    "store": "aldi",
    "cat": "Fruit",
-   "name": "Conference peren",
-   "price": "0,89"
+   "name": "Conference peren, 1 kg",
+   "price": "0,89",
+   "was": "1,79",
+   "size": 1000,
+   "unit": "g"
   },
   {
    "store": "aldi",
    "cat": "Fruit",
-   "name": "Pitloze rode druiven",
-   "price": "1,69"
+   "name": "Pitloze rode druiven, 500 g",
+   "price": "1,69",
+   "was": "2,39",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "aldi",
@@ -347,8 +388,10 @@
   {
    "store": "aldi",
    "cat": "Kaas",
-   "name": "Gouda geraspte kaas",
-   "price": "1,49"
+   "name": "Gouda geraspte kaas, 200 g",
+   "price": "1,49",
+   "size": 200,
+   "unit": "g"
   },
   {
    "store": "aldi",
@@ -371,14 +414,17 @@
    "store": "aldi",
    "cat": "Voorraad",
    "name": "Gemarineerde semi-gedroogde tomaten",
-   "price": "1,39"
+   "price": "1,39",
+   "was": "1,79"
   },
   {
    "store": "aldi",
    "cat": "Vega",
-   "name": "Asia Green Garden samosa's",
+   "name": "Asia Green Garden samosa's, 12 stuks, 240 g",
    "price": "2,49",
-   "why": "Vega bijgerecht bij curry"
+   "why": "Vega bijgerecht bij curry",
+   "size": 240,
+   "unit": "g"
   },
   {
    "store": "lidl",
@@ -390,8 +436,11 @@
   {
    "store": "lidl",
    "cat": "Groenten",
-   "name": "Spruiten",
-   "price": "1,29"
+   "name": "Spruiten, 750 g",
+   "price": "1,29",
+   "was": "1,89",
+   "size": 750,
+   "unit": "g"
   },
   {
    "store": "lidl",
@@ -408,15 +457,21 @@
   {
    "store": "lidl",
    "cat": "Fruit",
-   "name": "Ananas",
+   "name": "Ananas, per stuk",
    "price": "1,69",
-   "why": "Lekker in zoetzure roerbak"
+   "why": "Lekker in zoetzure roerbak",
+   "was": "1,99",
+   "size": 1,
+   "unit": "st"
   },
   {
    "store": "lidl",
    "cat": "Fruit",
-   "name": "Conference peren",
-   "price": "0,89"
+   "name": "Conference peren, 1 kg",
+   "price": "0,89",
+   "was": "1,79",
+   "size": 1000,
+   "unit": "g"
   },
   {
    "store": "lidl",
@@ -427,46 +482,62 @@
   {
    "store": "lidl",
    "cat": "Vlees",
-   "name": "Braadworsten",
-   "price": "2,49"
+   "name": "Braadworsten, 400 g",
+   "price": "2,49",
+   "was": "3,16",
+   "size": 400,
+   "unit": "g"
   },
   {
    "store": "lidl",
    "cat": "Vega",
-   "name": "Plantaardige falafel of vega spinazie-kaas rondo",
+   "name": "Plantaardige falafel of vega spinazie-kaas rondo, 180-200 g",
    "price": "1,29",
    "top": true,
-   "why": "Goedkoop vega eiwit voor haar"
+   "why": "Goedkoop vega eiwit voor haar",
+   "was": "1,79"
   },
   {
    "store": "lidl",
    "cat": "Kaas",
-   "name": "Milbona jong belegen kaas, stuk",
-   "price": "4,29"
+   "name": "Milbona jong belegen kaas, stuk, 450 g",
+   "price": "4,29",
+   "was": "4,76",
+   "size": 450,
+   "unit": "g"
   },
   {
    "store": "lidl",
    "cat": "Zuivel & eieren",
-   "name": "Milbona belegen 30+, stuk",
-   "price": "3,99"
+   "name": "Milbona belegen 30+, stuk, 450 g",
+   "price": "3,99",
+   "was": "4,76",
+   "size": 450,
+   "unit": "g"
   },
   {
    "store": "lidl",
    "cat": "Kaas",
-   "name": "Milbona jong belegen kaasplakken",
-   "price": "3,49"
+   "name": "Milbona jong belegen kaasplakken, 500 g",
+   "price": "3,49",
+   "size": 500,
+   "unit": "g"
   },
   {
    "store": "lidl",
    "cat": "Voorraad",
-   "name": "Mutti passata of polpa",
-   "price": "1,99"
+   "name": "Mutti passata of polpa, 2 × 400/560 g",
+   "price": "1,99",
+   "was": "2,99"
   },
   {
    "store": "lidl",
    "cat": "Voorraad",
-   "name": "Combino spaghetti of penne",
-   "price": "0,79"
+   "name": "Combino spaghetti of penne, 1,2 kg",
+   "price": "0,79",
+   "was": "1,49",
+   "size": 1200,
+   "unit": "g"
   },
   {
    "store": "lidl",
