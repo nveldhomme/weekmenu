@@ -1,1003 +1,1598 @@
 {
- "week": 43,
- "range": "19 t/m 25 oktober 2026",
- "updated": "za 17 okt, 17:20",
- "stores": [
-  {
-   "id": "aldi",
-   "name": "Aldi",
-   "status": "compleet",
-   "valid": "ma 19 t/m zo 25 okt"
-  },
-  {
-   "id": "lidl",
-   "name": "Lidl",
-   "status": "compleet",
-   "valid": "ma 19 t/m zo 25 okt"
-  },
-  {
-   "id": "poiesz",
-   "name": "Poiesz",
-   "status": "compleet",
-   "valid": "zo 18 t/m za 24 okt"
-  },
-  {
-   "id": "nettorama",
-   "name": "Nettorama",
-   "status": "compleet",
-   "valid": "ma 19 t/m zo 25 okt"
-  },
-  {
-   "id": "jumbo",
-   "name": "Jumbo",
-   "status": "compleet",
-   "valid": "wo 21 t/m di 27 okt",
-   "note": "Jumbo Meppel; Jumbo-acties lopen van woensdag t/m dinsdag"
-  }
- ],
- "note": "Poiesz geldt zo 18 t/m za 24 okt, Aldi/Lidl/Nettorama ma 19 t/m zo 25 okt, Jumbo wo 21 t/m di 27 okt.",
- "deals": [
-  {
-   "store": "nettorama",
-   "cat": "Vlees",
-   "name": "Gemengd gehakt, per kilo",
-   "price": "5,00",
-   "top": true,
-   "why": "Kilozak; helft invriezen. Voor woensdag",
-   "size": 1000,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Groenten",
-   "name": "Roerbakgroenten, alle varianten, zak 400 g",
-   "price": "1,69",
-   "top": true,
-   "why": "Basis voor de wok",
-   "size": 400,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Groenten",
-   "name": "Verpakte spruiten, zak 500 g",
-   "price": "0,80",
-   "top": true,
-   "why": "Goedkoopste spruitjes deze week",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Vlees",
-   "name": "Slagershuis rookworst, 225 g",
-   "price": "0,80",
-   "size": 225,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Vlees",
-   "name": "Kipshoarma met paprika of kipgyros met ui, 400 g",
-   "price": "4,99",
-   "size": 400,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Vlees",
-   "name": "Filetlapjes naturel of varkensfiletrollade, 500 g",
-   "price": "4,99",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Vlees",
-   "name": "Gehakt cordon bleu, slavink of boomstam, 5 stuks (500 g)",
-   "price": "4,00",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Vlees",
-   "name": "Gerookte spekreepjes, 125 g",
-   "price": "0,80",
-   "size": 125,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Groenten",
-   "name": "Groentemix, broccoli- of bloemkoolroosjes, sperziebonen, pompoenblokjes, zak 350/400 g",
-   "price": "1,79"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Groenten",
-   "name": "Smaak trostomaten, 400 g",
-   "price": "1,49",
-   "size": 400,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Fruit",
-   "name": "Druiven, blauwe bessen of ananas",
-   "price": "3,50",
-   "why": "2 stuks"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Kaas",
-   "name": "Maaslander gesneden kaas, 140-150 g",
-   "price": "1,79"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Zuivel & eieren",
-   "name": "Almhof roomyoghurt, 500 g",
-   "price": "1,49",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Zuivel & eieren",
-   "name": "Zuivelhoeve XXL Nutrition, alle varianten",
-   "price": "3,00",
-   "why": "2 stuks"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Zuivel & eieren",
-   "name": "Melkan koffiemelk, fles 186/188 ml",
-   "price": "0,80"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Brood",
-   "name": "Witte of volkoren bollen, 2 zakken à 6 stuks",
-   "price": "1,75",
-   "why": "2 zakken",
-   "size": 12,
-   "unit": "st"
-  },
-  {
-   "store": "nettorama",
-   "cat": "Voorraad",
-   "name": "Douwe Egberts roodmerk of espresso bonen, 1 kg",
-   "price": "13,49",
-   "size": 1000,
-   "unit": "g"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Vlees",
-   "name": "Kipdijshoarma of kipdijgyros, 400 g",
-   "price": "4,00",
-   "top": true,
-   "why": "Kipdij voor de wok",
-   "size": 400,
-   "unit": "g"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Vlees",
-   "name": "Runderlappen of hacheevlees, 500 g",
-   "price": "7,99",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Vlees",
-   "name": "Varkensfiletlapjes",
-   "price": "7,49"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Vis",
-   "name": "Roerbakgarnalen knoflook, pakje à 150 g",
-   "price": "3,50",
-   "size": 150,
-   "unit": "g"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Groenten",
-   "name": "Prei kort",
-   "price": "0,50"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Groenten",
-   "name": "Spruiten, zak 500 g",
-   "price": "1,00",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Groenten",
-   "name": "Boeren of fijne soepgroente, zak 350/400 g",
-   "price": "1,50"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Fruit",
-   "name": "Doyenne du Comice handperen of Kanzi appels, per kilo",
-   "price": "2,00",
-   "size": 1000,
-   "unit": "g"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Fruit",
-   "name": "Zespri Sungold kiwi, 500 g",
-   "price": "3,00",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Vega",
-   "name": "Alpro houdbare drinks, desserts of soya cuisine, 2 stuks (1+1 gratis)",
-   "price": "1,89",
-   "was": "3,78"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Vega",
-   "name": "Premium quiche, 400 g",
-   "price": "5,00",
-   "size": 400,
-   "unit": "g"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Kaas",
-   "name": "Vergeer geraspte kaas, 2 zakjes à 150/200 g (1+1 gratis)",
-   "price": "2,49",
-   "was": "4,98"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Kaas",
-   "name": "Noordertrots boerderijkaas, stuk ca. 500 g",
-   "price": "7,00"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Voorraad",
-   "name": "Honig mix voor maaltijd of mealkit, 2 pakjes (1+1 gratis)",
-   "price": "1,99",
-   "was": "3,98"
-  },
-  {
-   "store": "poiesz",
-   "cat": "Voorraad",
-   "name": "Unox soep in zak, 2 zakken à 570 ml (1+1 gratis)",
-   "price": "3,15",
-   "was": "6,30",
-   "size": 1140,
-   "unit": "ml"
-  },
-  {
-   "store": "aldi",
-   "cat": "Vlees",
-   "name": "Kipdijfilet gemarineerd",
-   "price": "2,99",
-   "top": true,
-   "why": "Snel roerbakvlees, past bij rijst"
-  },
-  {
-   "store": "aldi",
-   "cat": "Vlees",
-   "name": "Gyros met paprika, 750 g",
-   "price": "4,49",
-   "top": true,
-   "why": "Kant-en-klaar gekruid, ook voor 2 avonden",
-   "was": "7,49",
-   "size": 750,
-   "unit": "g"
-  },
-  {
-   "store": "aldi",
-   "cat": "Vlees",
-   "name": "Extra mager rundergehakt, 750 g",
-   "price": "8,99",
-   "why": "Grote verpakking, helft invriezen",
-   "was": "11,05",
-   "size": 750,
-   "unit": "g"
-  },
-  {
-   "store": "aldi",
-   "cat": "Vlees",
-   "name": "Runderchipolata's",
-   "price": "3,49"
-  },
-  {
-   "store": "aldi",
-   "cat": "Vlees",
-   "name": "Kipbites",
-   "price": "4,99"
-  },
-  {
-   "store": "aldi",
-   "cat": "Vis",
-   "name": "Golden Seafood tonijnfilet, 3 × 80 g",
-   "price": "1,99",
-   "was": "2,79",
-   "size": 240,
-   "unit": "g"
-  },
-  {
-   "store": "aldi",
-   "cat": "Groenten",
-   "name": "Pompoen hokkaido, per stuk",
-   "price": "0,99",
-   "top": true,
-   "why": "Eén pompoen = curry voor 2 avonden",
-   "was": "1,59",
-   "size": 1,
-   "unit": "st"
-  },
-  {
-   "store": "aldi",
-   "cat": "Groenten",
-   "name": "Bloemkool",
-   "price": "1,39",
-   "top": true
-  },
-  {
-   "store": "aldi",
-   "cat": "Fruit",
-   "name": "Eetrijpe avocado's, 2 stuks",
-   "price": "1,79",
-   "was": "2,49",
-   "size": 2,
-   "unit": "st"
-  },
-  {
-   "store": "aldi",
-   "cat": "Fruit",
-   "name": "Conference peren, 1 kg",
-   "price": "0,89",
-   "was": "1,79",
-   "size": 1000,
-   "unit": "g"
-  },
-  {
-   "store": "aldi",
-   "cat": "Fruit",
-   "name": "Pitloze rode druiven, 500 g",
-   "price": "1,69",
-   "was": "2,39",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "aldi",
-   "cat": "Fruit",
-   "name": "Kakifruit",
-   "price": "2,49"
-  },
-  {
-   "store": "aldi",
-   "cat": "Kaas",
-   "name": "Gouda geraspte kaas, 200 g",
-   "price": "1,49",
-   "size": 200,
-   "unit": "g"
-  },
-  {
-   "store": "aldi",
-   "cat": "Voorraad",
-   "name": "Calvé saus 430 ml",
-   "price": "1,69",
-   "was": "3,59",
-   "top": true,
-   "why": "Ruim de helft korting",
-   "size": 430,
-   "unit": "ml"
-  },
-  {
-   "store": "aldi",
-   "cat": "Voorraad",
-   "name": "Grand'Italia pasta of pastasaus",
-   "price": "1,69"
-  },
-  {
-   "store": "aldi",
-   "cat": "Voorraad",
-   "name": "Gemarineerde semi-gedroogde tomaten",
-   "price": "1,39",
-   "was": "1,79"
-  },
-  {
-   "store": "aldi",
-   "cat": "Vega",
-   "name": "Asia Green Garden samosa's, 12 stuks, 240 g",
-   "price": "2,49",
-   "why": "Vega bijgerecht bij curry",
-   "size": 240,
-   "unit": "g"
-  },
-  {
-   "store": "lidl",
-   "cat": "Groenten",
-   "name": "Spinazie",
-   "price": "0,99",
-   "top": true
-  },
-  {
-   "store": "lidl",
-   "cat": "Groenten",
-   "name": "Spruiten, 750 g",
-   "price": "1,29",
-   "was": "1,89",
-   "size": 750,
-   "unit": "g"
-  },
-  {
-   "store": "lidl",
-   "cat": "Groenten",
-   "name": "Witlof",
-   "price": "0,99"
-  },
-  {
-   "store": "lidl",
-   "cat": "Fruit",
-   "name": "Citroenen",
-   "price": "0,99"
-  },
-  {
-   "store": "lidl",
-   "cat": "Fruit",
-   "name": "Ananas, per stuk",
-   "price": "1,69",
-   "why": "Lekker in zoetzure roerbak",
-   "was": "1,99",
-   "size": 1,
-   "unit": "st"
-  },
-  {
-   "store": "lidl",
-   "cat": "Fruit",
-   "name": "Conference peren, 1 kg",
-   "price": "0,89",
-   "was": "1,79",
-   "size": 1000,
-   "unit": "g"
-  },
-  {
-   "store": "lidl",
-   "cat": "Vlees",
-   "name": "Schouderkarbonades",
-   "price": "5,69"
-  },
-  {
-   "store": "lidl",
-   "cat": "Vlees",
-   "name": "Braadworsten, 400 g",
-   "price": "2,49",
-   "was": "3,16",
-   "size": 400,
-   "unit": "g"
-  },
-  {
-   "store": "lidl",
-   "cat": "Vega",
-   "name": "Plantaardige falafel of vega spinazie-kaas rondo, 180-200 g",
-   "price": "1,29",
-   "top": true,
-   "why": "Goedkoop vega eiwit voor haar",
-   "was": "1,79"
-  },
-  {
-   "store": "lidl",
-   "cat": "Kaas",
-   "name": "Milbona jong belegen kaas, stuk, 450 g",
-   "price": "4,29",
-   "was": "4,76",
-   "size": 450,
-   "unit": "g"
-  },
-  {
-   "store": "lidl",
-   "cat": "Zuivel & eieren",
-   "name": "Milbona belegen 30+, stuk, 450 g",
-   "price": "3,99",
-   "was": "4,76",
-   "size": 450,
-   "unit": "g"
-  },
-  {
-   "store": "lidl",
-   "cat": "Kaas",
-   "name": "Milbona jong belegen kaasplakken, 500 g",
-   "price": "3,49",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "lidl",
-   "cat": "Voorraad",
-   "name": "Mutti passata of polpa, 2 × 400/560 g",
-   "price": "1,99",
-   "was": "2,99"
-  },
-  {
-   "store": "lidl",
-   "cat": "Voorraad",
-   "name": "Combino spaghetti of penne, 1,2 kg",
-   "price": "0,79",
-   "was": "1,49",
-   "size": 1200,
-   "unit": "g"
-  },
-  {
-   "store": "lidl",
-   "cat": "Voorraad",
-   "name": "Senseo koffiepads",
-   "price": "4,79",
-   "was": "6,98",
-   "top": true
-  },
-  {
-   "store": "lidl",
-   "cat": "Brood",
-   "name": "Tijger volkorenbrood",
-   "price": "1,09"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Groenten",
-   "name": "Jumbo wokgroenten, 2 zakken à 400 g (1+1 gratis)",
-   "price": "2,69",
-   "was": "5,38",
-   "top": true,
-   "why": "Basis voor de wok, vanaf woensdag",
-   "size": 800,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Voorraad",
-   "name": "Jumbo's verse woksauzen, zak 225 g",
-   "price": "2,02",
-   "was": "2,69",
-   "size": 225,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Vlees",
-   "name": "Gegrilde of gepaneerde kip (kipbuckets/kipsticks), 600 g",
-   "price": "3,00",
-   "was": "6,00",
-   "top": true,
-   "why": "Halve prijs",
-   "size": 600,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Vega",
-   "name": "De Vegetarische Slager of Oma's vleesvervangers, bv. 2 dozen à 350 g (1+1 gratis)",
-   "price": "6,99",
-   "was": "13,98",
-   "top": true,
-   "why": "Vega eiwit voor haar",
-   "size": 700,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Vega",
-   "name": "Jumbo's plantaardig stoofvlees, 300 g (25% korting)",
-   "price": "3,37",
-   "was": "4,49",
-   "size": 300,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Fruit",
-   "name": "Tessa appels, 2 tassen à 1 kg (1+1 gratis)",
-   "price": "2,99",
-   "was": "5,98",
-   "size": 2000,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Fruit",
-   "name": "Nederlandse aardbeien, bak 400 g",
-   "price": "2,99",
-   "was": "3,99",
-   "size": 400,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Fruit",
-   "name": "Zespri kiwi green, bak 1 kg",
-   "price": "4,99",
-   "was": "6,49",
-   "size": 1000,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Fruit",
-   "name": "Mango eetrijp, schaal 2 stuks",
-   "price": "3,49",
-   "size": 2,
-   "unit": "st"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Brood",
-   "name": "Jumbo naanbrood of flatbread, zak 2 stuks (50% korting)",
-   "price": "0,85",
-   "was": "1,69",
-   "why": "Lekker bij de curry",
-   "size": 2,
-   "unit": "st"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Voorraad",
-   "name": "Jumbo's pasta, 2 zakken à 500 g (1+1 gratis)",
-   "price": "1,39",
-   "was": "2,78",
-   "size": 1000,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Voorraad",
-   "name": "Jumbo's verse pasta of pastasaus, bv. 2 zakken ravioli à 250 g (1+1 gratis)",
-   "price": "2,99",
-   "was": "5,98",
-   "size": 500,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Voorraad",
-   "name": "Knorr Wereldgerechten, bv. 5 dozen à 303 g (2+3 gratis)",
-   "price": "7,30",
-   "was": "18,25",
-   "size": 1515,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Voorraad",
-   "name": "Knorr Cup-a-Soup of Good Noodles, 5 stuks (2+3 gratis)",
-   "price": "4,38",
-   "was": "10,95"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Zuivel & eieren",
-   "name": "Optimel kwark/yoghurt, 2 bekers à 500 g (1+1 gratis)",
-   "price": "2,39",
-   "was": "4,78",
-   "size": 1000,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Zuivel & eieren",
-   "name": "XXL Nutrition zuivel, bv. 2 × 200 g (1+1 gratis)",
-   "price": "1,99",
-   "was": "3,98",
-   "size": 400,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Kaas",
-   "name": "Galbani Parmigiano of andere harde kaas, 2 × 60 g (1+1 gratis)",
-   "price": "2,39",
-   "was": "4,78",
-   "size": 120,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Kaas",
-   "name": "La Vache qui rit of Mini Babybel, bv. 2 × 120 g (1+1 gratis)",
-   "price": "2,19",
-   "was": "4,38",
-   "size": 240,
-   "unit": "g"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Diepvries",
-   "name": "Hertog ijs, 2 bakjes à 200 ml (1+1 gratis)",
-   "price": "1,95",
-   "was": "3,90",
-   "size": 400,
-   "unit": "ml"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Drinken",
-   "name": "Coca-Cola of Fanta, 2 flessen à 1 liter (1+1 gratis)",
-   "price": "2,19",
-   "was": "4,38",
-   "size": 2000,
-   "unit": "ml"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Drinken",
-   "name": "DubbelFrisss of Taksi, 2 pakken à 1,5 liter (1+1 gratis)",
-   "price": "1,85",
-   "was": "3,70",
-   "size": 3000,
-   "unit": "ml"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Drinken",
-   "name": "Jumbo's koffiepads, 2 zakken à 36 stuks (1+1 gratis)",
-   "price": "5,79",
-   "was": "11,58",
-   "size": 72,
-   "unit": "st"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Drinken",
-   "name": "Clipper thee, 2 doosjes à 20 zakjes (1+1 gratis)",
-   "price": "3,79",
-   "was": "7,58",
-   "size": 40,
-   "unit": "st"
-  },
-  {
-   "store": "jumbo",
-   "cat": "Snoep & snacks",
-   "name": "Verkade koek of chocolade, 2 stuks (1+1 gratis)",
-   "price": "1,95",
-   "was": "3,90"
-  }
- ],
- "meals": [
-  {
-   "day": "Maandag",
-   "title": "Kipdij-roerbak met baby paksoi",
-   "time": "25 min",
-   "shared": "Baby paksoi met een zak roerbakgroenten (Nettorama) en wat ananas uit de wok met sojasaus, knoflook en gember. Jasmijnrijst.",
-   "him": "Gemarineerde kipdijfilet (Aldi), apart aangebraden",
-   "her": "Twee gebakken eieren met een scheut sojasaus",
-   "steps": [
-    "Zet 250 g jasmijnrijst op.",
-    "Snijd de kipdij in reepjes en bak in een aparte pan gaar, 6 tot 8 minuten.",
-    "Fruit knoflook en gember in de wok, voeg de roerbakgroenten toe, na 2 minuten de gehalveerde baby paksoi en een paar stukjes ananas.",
-    "Blus af met 3 el sojasaus en 1 el ketjap. Bak voor haar 2 eieren.",
-    "Verdeel de groenten, kip op zijn bord, eieren op het hare."
-   ]
-  },
-  {
-   "day": "Dinsdag",
-   "title": "Pompoencurry met spinazie",
-   "time": "35 min",
-   "shared": "Hokkaido in blokjes (schil mag eraan) met rode currypasta, kokosmelk en spinazie. Rijst.",
-   "him": "Gyros met paprika (Aldi), los erbij gebakken",
-   "her": "Samosa's (Aldi) uit de oven ernaast",
-   "steps": [
-    "Halveer de pompoen, schep de pitten eruit en snijd in blokjes van 2 cm. Houd de helft over voor donderdag.",
-    "Bak 2 el currypasta 1 minuut in olie, voeg pompoen en 400 ml kokosmelk toe. Laat 15 minuten zacht koken.",
-    "Zet de rijst op en de samosa's in de oven (volgens verpakking).",
-    "Bak de gyros in een aparte pan.",
-    "Roer op het laatst de spinazie door de curry tot die slinkt. Citroensap erover."
-   ]
-  },
-  {
-   "day": "Woensdag",
-   "title": "Chinese kool met gehakt of ei",
-   "time": "25 min",
-   "shared": "Chinese kool in reepjes, roergebakken met knoflook, sambal en oestersaus (vega: champignonsaus). Rijst.",
-   "him": "Gemengd gehakt (Nettorama) rul gebakken met ketjap; rest invriezen",
-   "her": "Roerei met lente-ui",
-   "steps": [
-    "Zet de rijst op.",
-    "Bak 250 g gehakt rul met 1 el ketjap. Vries de rest van de kilozak in porties in.",
-    "Roerbak de kool met knoflook en een theelepel sambal 4 minuten, nog knapperig.",
-    "Breng op smaak met vega oestersaus (champignonbasis), dan is de basis voor allebei goed.",
-    "Maak roerei van 3 eieren met lente-ui voor haar."
-   ]
-  },
-  {
-   "day": "Donderdag",
-   "title": "Geroosterde bloemkool & pompoen",
-   "time": "40 min",
-   "shared": "Bloemkoolroosjes en de rest van de pompoen uit de oven met komijn. Rijst en een citroen-yoghurtsaus.",
-   "him": "Schouderkarbonade (Lidl) uit de pan",
-   "her": "Falafel of spinazie-kaas rondo (Lidl)",
-   "steps": [
-    "Oven op 220 °C. Bloemkool en pompoen met olie, komijn en zout op een bakplaat, 25 minuten.",
-    "Zet de rijst op.",
-    "Roer yoghurt met citroensap, knoflook en peper tot saus.",
-    "Bak de karbonade 4 minuten per kant. Falafel of rondo de laatste 10 minuten mee de oven in.",
-    "Serveer met de saus."
-   ]
-  },
-  {
-   "day": "Vrijdag",
-   "title": "Gebakken rijst met spruitjes",
-   "time": "20 min",
-   "shared": "Restjes rijst gebakken met gehalveerde spruitjes (Nettorama), paksoi, ei en sojasaus.",
-   "him": "Braadworst (Lidl) in plakjes erdoor",
-   "her": "Extra ei en geraspte kaas erover",
-   "steps": [
-    "Kook spruitjes 4 minuten voor en halveer ze.",
-    "Bak de braadworst apart gaar en snijd in plakjes.",
-    "Bak de spruitjes in de wok bruin, voeg koude rijst toe en bak 5 minuten op hoog vuur.",
-    "Schuif opzij, roer 3 eieren erdoor, sojasaus erover.",
-    "Verdeel en geef hem de worst."
-   ]
-  }
- ],
- "shopping": [
-  {
-   "name": "Kipdijfilet gemarineerd",
-   "store": "Aldi",
-   "cat": "Vlees",
-   "deal": true
-  },
-  {
-   "name": "Gyros met paprika",
-   "store": "Aldi",
-   "cat": "Vlees",
-   "deal": true
-  },
-  {
-   "name": "Pompoen hokkaido",
-   "store": "Aldi",
-   "cat": "Groenten",
-   "deal": true
-  },
-  {
-   "name": "Bloemkool",
-   "store": "Aldi",
-   "cat": "Groenten",
-   "deal": true
-  },
-  {
-   "name": "Asia Green Garden samosa's",
-   "store": "Aldi",
-   "cat": "Vega",
-   "deal": true
-  },
-  {
-   "name": "Gouda geraspte kaas",
-   "store": "Aldi",
-   "cat": "Kaas",
-   "deal": true
-  },
-  {
-   "name": "Spinazie",
-   "store": "Lidl",
-   "cat": "Groenten",
-   "deal": true
-  },
-  {
-   "name": "Ananas",
-   "store": "Lidl",
-   "cat": "Fruit",
-   "deal": true
-  },
-  {
-   "name": "Citroenen",
-   "store": "Lidl",
-   "cat": "Fruit",
-   "deal": true
-  },
-  {
-   "name": "Schouderkarbonades",
-   "store": "Lidl",
-   "cat": "Vlees",
-   "deal": true
-  },
-  {
-   "name": "Braadworsten",
-   "store": "Lidl",
-   "cat": "Vlees",
-   "deal": true
-  },
-  {
-   "name": "Plantaardige falafel of spinazie-kaas rondo",
-   "store": "Lidl",
-   "cat": "Vega",
-   "deal": true
-  },
-  {
-   "name": "Gemengd gehakt, kilozak",
-   "store": "Nettorama",
-   "cat": "Vlees",
-   "deal": true
-  },
-  {
-   "name": "Verpakte spruiten, zak 500 g",
-   "store": "Nettorama",
-   "cat": "Groenten",
-   "deal": true
-  },
-  {
-   "name": "Roerbakgroenten, zak 400 g",
-   "store": "Nettorama",
-   "cat": "Groenten",
-   "deal": true
-  },
-  {
-   "name": "Baby paksoi (2 bakjes)",
-   "store": "Overal",
-   "cat": "Groenten"
-  },
-  {
-   "name": "Chinese kool",
-   "store": "Overal",
-   "cat": "Groenten"
-  },
-  {
-   "name": "Lente-ui",
-   "store": "Overal",
-   "cat": "Groenten"
-  },
-  {
-   "name": "Eieren (10)",
-   "store": "Overal",
-   "cat": "Zuivel & eieren"
-  },
-  {
-   "name": "Kokosmelk 400 ml",
-   "store": "Overal",
-   "cat": "Voorraad"
-  },
-  {
-   "name": "Rode currypasta",
-   "store": "Overal",
-   "cat": "Voorraad"
-  },
-  {
-   "name": "Griekse yoghurt",
-   "store": "Overal",
-   "cat": "Zuivel & eieren"
-  },
-  {
-   "name": "Jasmijnrijst 1 kg (als het op is)",
-   "store": "Overal",
-   "cat": "Voorraad"
-  },
-  {
-   "name": "Vega oestersaus (champignon)",
-   "store": "Overal",
-   "cat": "Voorraad"
-  }
- ],
- "categories": [
-  "Groenten",
-  "Fruit",
-  "Vlees",
-  "Vis",
-  "Vega",
-  "Brood",
-  "Zuivel & eieren",
-  "Kaas",
-  "Diepvries",
-  "Voorraad",
-  "Drinken",
-  "Snoep & snacks"
- ]
+  "week": 44,
+  "range": "26 oktober t/m 1 november 2026",
+  "updated": "zo 25 okt, 17:05",
+  "stores": [
+    {
+      "id": "aldi",
+      "name": "Aldi",
+      "status": "compleet",
+      "valid": "ma 26 okt t/m zo 1 nov"
+    },
+    {
+      "id": "lidl",
+      "name": "Lidl",
+      "status": "compleet",
+      "valid": "ma 26 okt t/m zo 1 nov"
+    },
+    {
+      "id": "poiesz",
+      "name": "Poiesz",
+      "status": "compleet",
+      "valid": "zo 25 t/m za 31 okt"
+    },
+    {
+      "id": "nettorama",
+      "name": "Nettorama",
+      "status": "compleet",
+      "valid": "ma 26 okt t/m zo 1 nov",
+      "note": "Foldertekst deels onleesbaar; o.a. Chinese kool zonder zekere prijs"
+    },
+    {
+      "id": "jumbo",
+      "name": "Jumbo",
+      "status": "compleet",
+      "valid": "wo 28 okt t/m di 3 nov",
+      "note": "Jumbo Meppel; acties lopen van woensdag t/m dinsdag. Folder deels uitgelezen (eerste 13 pagina's) plus doorlopende acties"
+    }
+  ],
+  "note": "Poiesz geldt zo 25 t/m za 31 okt, Aldi/Lidl/Nettorama ma 26 okt t/m zo 1 nov, Jumbo wo 28 okt t/m di 3 nov. Bij Aldi en Lidl staan deze week geen gewichten in de bron, dus geen prijs per kilo.",
+  "categories": [
+    "Groenten",
+    "Fruit",
+    "Vlees",
+    "Vis",
+    "Vega",
+    "Brood",
+    "Zuivel & eieren",
+    "Kaas",
+    "Diepvries",
+    "Voorraad",
+    "Drinken",
+    "Snoep & snacks"
+  ],
+  "deals": [
+    {
+      "store": "nettorama",
+      "cat": "Groenten",
+      "name": "Roerbakgroenten, zak 400 g",
+      "price": "0,69",
+      "size": 400,
+      "unit": "g",
+      "top": true,
+      "why": "Nog geen € 1,75 per kilo; Poiesz-wokgroenten zijn bijna 3x zo duur. Basis voor ma en wo"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Groenten",
+      "name": "Paksoi, per stuk",
+      "price": "1,00",
+      "size": 1,
+      "unit": "st",
+      "top": true,
+      "why": "Favoriete groente voor een euro; voor ma en wo"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Groenten",
+      "name": "Broccoli, 500 g",
+      "price": "1,00",
+      "size": 500,
+      "unit": "g",
+      "top": true,
+      "why": "€ 2 per kilo; voor de Koreaanse bowl"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Vlees",
+      "name": "Kipfilet, 750 g",
+      "price": "7,99",
+      "size": 750,
+      "unit": "g",
+      "top": true,
+      "why": "€ 10,65 per kilo, goedkoper dan kipdij bij Poiesz (€ 11,73/kg). Voor ma en do"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Zuivel & eieren",
+      "name": "Scharreleieren, doos 10 stuks",
+      "price": "3,00",
+      "size": 10,
+      "unit": "st",
+      "top": true,
+      "why": "Vega eiwit voor haar, meerdere avonden"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Groenten",
+      "name": "Hokkaido- of flespompoen, per kilo",
+      "price": "0,99",
+      "size": 1000,
+      "unit": "g",
+      "top": true,
+      "why": "Spotgoedkoop; voor de pompoencurry"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Voorraad",
+      "name": "Sempio (o.a. gochujang), alle varianten, 160-250 g of fles 300 g",
+      "price": "0,50",
+      "top": true,
+      "why": "50% korting op Koreaanse sauzen; voor dinsdag"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Voorraad",
+      "name": "Go-Tan ramen noodles, 250 g",
+      "price": "1,00",
+      "size": 250,
+      "unit": "g",
+      "top": true,
+      "why": "Voor de ramen op woensdag"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vlees",
+      "name": "Runderflanksteak",
+      "price": "5,79",
+      "top": true,
+      "why": "Mooi stuk rund voor de ramen op woensdag"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Vlees",
+      "name": "Jumbo verse rookworst (varken, rund of kip), bv. 2 pakken à 250 g (1+1 gratis)",
+      "price": "3,50",
+      "was": "7,00",
+      "size": 500,
+      "unit": "g",
+      "top": true,
+      "why": "Halve prijs, € 7 per kilo; vanaf woensdag"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Vlees",
+      "name": "Speklappen, 500 g",
+      "price": "3,99",
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Vlees",
+      "name": "Shoarmavlees of gyrosvlees met paprika",
+      "price": "3,99"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Vlees",
+      "name": "Slagersrookworst (fijn, grof of kip), 275 g",
+      "price": "2,50",
+      "size": 275,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Vlees",
+      "name": "Bovenpoot, hamschijf, krabjes, vlees- of spekribben, 400 g",
+      "price": "2,99",
+      "size": 400,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Vlees",
+      "name": "Gerookte slagersham, coburger of kipfilet (naturel, tuinkruiden of gerookt)",
+      "price": "1,75"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Groenten",
+      "name": "Ongesneden snijbonen, zak 400 g",
+      "price": "1,69",
+      "size": 400,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Groenten",
+      "name": "Mini komkommers, net 750 g",
+      "price": "1,99",
+      "size": 750,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Groenten",
+      "name": "Geschoonde spruiten, gebroken sperziebonen, gesneden snijbonen of pompoenblokjes, zak 350/400 g",
+      "price": "1,79"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Groenten",
+      "name": "Verspakket groentemix, broccoli- of bloemkoolroosjes, zak 350/400 g",
+      "price": "1,79"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Fruit",
+      "name": "Zespri kiwi gold, 500 g",
+      "price": "1,99",
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Fruit",
+      "name": "Pitloze witte of rode druiven, schaal 500 g (2 voor 3,50)",
+      "price": "3,50",
+      "size": 1000,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Fruit",
+      "name": "Blauwe bessen, schaal 125 g (2 voor 3,50)",
+      "price": "3,50",
+      "size": 250,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Fruit",
+      "name": "Aardbeien, schaal 400 g",
+      "price": "2,79",
+      "size": 400,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Kaas",
+      "name": "Milner plakken kaas, alle varianten, pak 150 g",
+      "price": "1,79",
+      "size": 150,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Kaas",
+      "name": "Eru smeerkaas of cheddar, kuip 100 g of pak 150 g",
+      "price": "0,99"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Zuivel & eieren",
+      "name": "Mona pudding, alle varianten, bak 450 ml",
+      "price": "0,99",
+      "size": 450,
+      "unit": "ml"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Zuivel & eieren",
+      "name": "Müllermilk of milkshake, 2 flesjes à 375/381 ml",
+      "price": "1,99"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Zuivel & eieren",
+      "name": "Nestlé viennois, pak 4 bakjes à 100 g",
+      "price": "1,99",
+      "size": 400,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Voorraad",
+      "name": "Flower Farm smeren zonder palmolie, kuip 225 g",
+      "price": "0,99",
+      "size": 225,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Voorraad",
+      "name": "Johma brood & toast salade, bak 175 g",
+      "price": "1,49",
+      "size": 175,
+      "unit": "g"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Brood",
+      "name": "Bollen (wit, bruin of volkoren), zak 8 stuks",
+      "price": "0,69",
+      "size": 8,
+      "unit": "st"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Brood",
+      "name": "Roomboter croissants, tijgerbollen, petit pains of kaiserbroodjes, 4 stuks",
+      "price": "0,99",
+      "size": 4,
+      "unit": "st"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Brood",
+      "name": "Vloerbroden (wit, donker, spelt donker of zonnevolkoren)",
+      "price": "1,99"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Brood",
+      "name": "Curryworst broodje, 2 stuks",
+      "price": "1,98",
+      "size": 2,
+      "unit": "st"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Snoep & snacks",
+      "name": "Kruidnootlettertjes of kleine speculaasjes, 4 stuks",
+      "price": "1,49"
+    },
+    {
+      "store": "nettorama",
+      "cat": "Snoep & snacks",
+      "name": "Roomboter appelkoek, per stuk",
+      "price": "0,65",
+      "size": 1,
+      "unit": "st"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Groenten",
+      "name": "Wokgroenten, 2 zakken à 400 g (2 voor 4,00)",
+      "price": "4,00",
+      "size": 800,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Groenten",
+      "name": "Bosui, per bos",
+      "price": "1,00"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Groenten",
+      "name": "Spinazie of andijvie fijn (zak 400 g) / winterpeen (zak 500 g)",
+      "price": "1,50"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Groenten",
+      "name": "Witlof, 500 g (50% korting)",
+      "price": "1,14",
+      "size": 500,
+      "unit": "g",
+      "was": "2,28"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Groenten",
+      "name": "Noordertrots boerenkool, zak 300 g",
+      "price": "1,50",
+      "size": 300,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Groenten",
+      "name": "IJsbergsla melange, zak 200 g",
+      "price": "1,00",
+      "size": 200,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Groenten",
+      "name": "Hak groenten, peulvruchten of appelmoes, 2 potten à 330-370 g (1+1 gratis)",
+      "price": "1,59",
+      "was": "3,59"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Fruit",
+      "name": "Handappels, 2 schalen à 4 stuks (2 voor 4,00)",
+      "price": "4,00",
+      "size": 8,
+      "unit": "st"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Fruit",
+      "name": "Frambozen, bramen of blauwe bessen, schaal 125 g",
+      "price": "2,50",
+      "size": 125,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Fruit",
+      "name": "Duo mango, rode pitloze druiven, pruimen of Spaanse mandarijnen (2 voor 4,00)",
+      "price": "4,00"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Kipdijfilet, 400 g",
+      "price": "4,69",
+      "size": 400,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Shoarmavlees, 450 g",
+      "price": "4,50",
+      "size": 450,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Gepaneerde kipschnitzel, 400 g",
+      "price": "5,49",
+      "size": 400,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Varkens cordon bleu, 2 x 150 g",
+      "price": "3,00",
+      "size": 300,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Zigeunerschijf, 4 x 100 g",
+      "price": "3,00",
+      "size": 400,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Noordertrots rookworst, 2 stuks (2 voor 5,50)",
+      "price": "5,50"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Noordertrots spekblokjes of -reepjes, 2 bakjes à 200 g (2 voor 5,00)",
+      "price": "5,00",
+      "size": 400,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Zandvliet grillworst (naturel of kaas), 250 g",
+      "price": "2,50",
+      "size": 250,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Yorkham of coburger ham, 100 g",
+      "price": "2,50",
+      "size": 100,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vlees",
+      "name": "Kipfilet sweet chili of salami, 100 g",
+      "price": "2,00",
+      "size": 100,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vis",
+      "name": "Zalmfilet met huid, 250 g",
+      "price": "5,99",
+      "size": 250,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vis",
+      "name": "Kabeljauwburger of kabeljauwschnitzel, 2 pakjes à 2 stuks (2 voor 5,50)",
+      "price": "5,50"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vis",
+      "name": "Klooster gerookte hele makreel, 330 g",
+      "price": "3,50",
+      "size": 330,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vis",
+      "name": "Cocktailgarnalen, 100 g",
+      "price": "2,00",
+      "size": 100,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Vega",
+      "name": "Vivera vleesvervangers, 150-216 g (40% korting)",
+      "price": "1,79",
+      "was": "2,98"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Kaas",
+      "name": "Maasdammer stuk, 500 g (50% korting)",
+      "price": "5,99",
+      "size": 500,
+      "unit": "g",
+      "was": "11,98"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Kaas",
+      "name": "Vergeer kaasplakken jong mild, 25 plakken (50% korting)",
+      "price": "4,00",
+      "size": 25,
+      "unit": "st",
+      "was": "8,00"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Kaas",
+      "name": "Vergeer geraspte kaas jong of extra belegen, zak 250/300 g",
+      "price": "3,00"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Zuivel & eieren",
+      "name": "Alle Zuivelhoeve of XXL yoghurts (1+1 gratis)",
+      "price": "1,19",
+      "was": "3,39"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Zuivel & eieren",
+      "name": "Friesche Vlag balans, halvamel of lattemelk (1+1 gratis)",
+      "price": "1,00",
+      "was": "2,00"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Zuivel & eieren",
+      "name": "Arla biologische zuivel, 2 x 1 liter (2 voor 3,50)",
+      "price": "3,50",
+      "size": 2000,
+      "unit": "ml"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Zuivel & eieren",
+      "name": "Melkunie pap, beker 500 g of pak 1000 ml (25% korting)",
+      "price": "0,94",
+      "was": "1,25"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Zuivel & eieren",
+      "name": "Arla protein, 2 flessen à 225/250 ml (1+1 gratis)",
+      "price": "1,59",
+      "was": "3,18"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Zuivel & eieren",
+      "name": "Campina echte slagroom, spuitbus 250 ml",
+      "price": "2,00",
+      "size": 250,
+      "unit": "ml"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Brood",
+      "name": "Bakkers tijger- of ribbelbrood, half",
+      "price": "1,00"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Brood",
+      "name": "Italiaanse bol of piramidebol, 2 stuks",
+      "price": "1,00",
+      "size": 2,
+      "unit": "st"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Brood",
+      "name": "Noordertrots Fries roggebrood, 500 g",
+      "price": "1,50",
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Brood",
+      "name": "Daily Chef bapao, 2 x 115 g (1+1 gratis)",
+      "price": "1,19",
+      "size": 230,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Diepvries",
+      "name": "Dr. Oetker Ristorante pizza of piadina, 3 stuks (3 voor 6,99)",
+      "price": "6,99",
+      "size": 3,
+      "unit": "st"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Diepvries",
+      "name": "Mora classics, specials of originals (25% korting)",
+      "price": "1,57"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Diepvries",
+      "name": "Queens Pangalicious, 2 x 250 g (1+1 gratis)",
+      "price": "3,59",
+      "size": 500,
+      "unit": "g",
+      "was": "7,18"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Voorraad",
+      "name": "Nissin Soba noodles, alle varianten",
+      "price": "1,49"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Voorraad",
+      "name": "Honig pasta, 2 pakken à 250-700 g (1+1 gratis)",
+      "price": "1,00",
+      "was": "2,49"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Voorraad",
+      "name": "Grand'Italia (half)volkoren pasta, 2 x 500 g (2 voor 3,00)",
+      "price": "3,00",
+      "size": 1000,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Voorraad",
+      "name": "Grand'Italia Sugocasa, pot 690 g",
+      "price": "2,50",
+      "size": 690,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Voorraad",
+      "name": "Mutti tomaten, 3 blikken/tubes à 130-425 g (2+1 gratis)",
+      "price": "3,96",
+      "was": "7,38"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Voorraad",
+      "name": "Maggi saus- of maaltijdmix, 2 zakjes (2 voor 2,50)",
+      "price": "2,50"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Voorraad",
+      "name": "Poiesz walnoten of notenmix, 500 g",
+      "price": "5,00",
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Drinken",
+      "name": "Douwe Egberts filterkoffie, 2 x 250 g (2 voor 7,50)",
+      "price": "7,50",
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Drinken",
+      "name": "Kanis & Gunnink koffiebonen, 1000 g",
+      "price": "12,50",
+      "size": 1000,
+      "unit": "g"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Drinken",
+      "name": "CoolBest 100% sap, 2 x 1 liter (2 voor 4,50)",
+      "price": "4,50",
+      "size": 2000,
+      "unit": "ml"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Drinken",
+      "name": "Maaza fruitdrank of DubbelDrank, 2 x 1 liter (2 voor 3,50)",
+      "price": "3,50",
+      "size": 2000,
+      "unit": "ml"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Snoep & snacks",
+      "name": "Alle Chio (1+1 gratis)",
+      "price": "1,69",
+      "was": "2,65"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Snoep & snacks",
+      "name": "Haribo of Maoam, 2 zakken à 325-375 g (1+1 gratis)",
+      "price": "3,89",
+      "was": "5,49"
+    },
+    {
+      "store": "poiesz",
+      "cat": "Snoep & snacks",
+      "name": "Venco of Redband, 2 zakken à 205-245 g (2 voor 4,00)",
+      "price": "4,00"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vlees",
+      "name": "Varkensfilet lapjes",
+      "price": "3,49"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vlees",
+      "name": "Gemarineerde slavinken",
+      "price": "2,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vlees",
+      "name": "Gemarineerde of boerenburgers met kaas",
+      "price": "1,49"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vlees",
+      "name": "Spekburgers, 2 stuks, 252 g",
+      "price": "2,79",
+      "was": "2,99",
+      "size": 252,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vlees",
+      "name": "Scharrelkip-rookworst",
+      "price": "1,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vlees",
+      "name": "Gut Drei Eichen salami",
+      "price": "1,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vlees",
+      "name": "Délifin gekookte achterham",
+      "price": "1,69"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vis",
+      "name": "Golden Seafood zalmfilets op huid, 500 g",
+      "price": "7,49",
+      "was": "11,98",
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Vis",
+      "name": "Cucina Tonno per pasta",
+      "price": "2,29"
+    },
+    {
+      "store": "aldi",
+      "cat": "Fruit",
+      "name": "Mango",
+      "price": "1,39"
+    },
+    {
+      "store": "aldi",
+      "cat": "Fruit",
+      "name": "Pitloze druivenmix",
+      "price": "1,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Fruit",
+      "name": "Perssinaasappels",
+      "price": "2,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Groenten",
+      "name": "Knolselderij",
+      "price": "0,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Groenten",
+      "name": "Daylicious boerenkool gesneden, 300 g",
+      "price": "0,99",
+      "was": "1,99",
+      "size": 300,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Groenten",
+      "name": "Daylicious prei fijn gesneden",
+      "price": "0,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Groenten",
+      "name": "Biologische komkommer",
+      "price": "1,29"
+    },
+    {
+      "store": "aldi",
+      "cat": "Zuivel & eieren",
+      "name": "Milsani high protein skyr naturel, 150 g",
+      "price": "0,49",
+      "size": 150,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Zuivel & eieren",
+      "name": "Verse magere yoghurt",
+      "price": "1,19"
+    },
+    {
+      "store": "aldi",
+      "cat": "Zuivel & eieren",
+      "name": "Friesche Vlag Halvamel",
+      "price": "1,19"
+    },
+    {
+      "store": "aldi",
+      "cat": "Kaas",
+      "name": "Milsani geraspte kaas, 150 g",
+      "price": "1,19",
+      "was": "1,73",
+      "size": 150,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Voorraad",
+      "name": "Milsani zuivelspread naturel, 200 g",
+      "price": "1,37",
+      "was": "2,79",
+      "size": 200,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Voorraad",
+      "name": "Golden Bridge havermout, 5 x 65 g",
+      "price": "1,79",
+      "size": 325,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Voorraad",
+      "name": "Biologische olijfolie extra vierge",
+      "price": "4,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Voorraad",
+      "name": "Heinz sandwich spread, 300 g",
+      "price": "1,79",
+      "was": "2,49",
+      "size": 300,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Voorraad",
+      "name": "Calvé pindakaas, 350 g",
+      "price": "2,49",
+      "size": 350,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Brood",
+      "name": "Boeren volkoren meergranen",
+      "price": "1,59"
+    },
+    {
+      "store": "aldi",
+      "cat": "Brood",
+      "name": "De Afbakker baguettes of petits pains meergranen",
+      "price": "0,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Diepvries",
+      "name": "Speise Zeit koolroulades, 2 stuks, 800 g",
+      "price": "2,99",
+      "size": 800,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Diepvries",
+      "name": "Aviko Super Crunch airfryerfriet, 350 g",
+      "price": "0,99",
+      "size": 350,
+      "unit": "g"
+    },
+    {
+      "store": "aldi",
+      "cat": "Drinken",
+      "name": "Pickwick English blend thee",
+      "price": "0,99"
+    },
+    {
+      "store": "aldi",
+      "cat": "Drinken",
+      "name": "Hero Cassis",
+      "price": "1,49",
+      "was": "2,69"
+    },
+    {
+      "store": "aldi",
+      "cat": "Drinken",
+      "name": "Fanta, Fanta zero of Sprite, 1,5 liter",
+      "price": "1,79",
+      "was": "2,29",
+      "size": 1500,
+      "unit": "ml"
+    },
+    {
+      "store": "aldi",
+      "cat": "Snoep & snacks",
+      "name": "Biscotto stroopwafels",
+      "price": "2,04"
+    },
+    {
+      "store": "aldi",
+      "cat": "Snoep & snacks",
+      "name": "Knoppers 9-pack",
+      "price": "1,99",
+      "size": 9,
+      "unit": "st"
+    },
+    {
+      "store": "aldi",
+      "cat": "Snoep & snacks",
+      "name": "Chio Heartbreakers",
+      "price": "1,49"
+    },
+    {
+      "store": "lidl",
+      "cat": "Groenten",
+      "name": "Prei",
+      "price": "0,39"
+    },
+    {
+      "store": "lidl",
+      "cat": "Groenten",
+      "name": "Bio pompoen",
+      "price": "1,49"
+    },
+    {
+      "store": "lidl",
+      "cat": "Groenten",
+      "name": "Bio knolselderij",
+      "price": "1,29"
+    },
+    {
+      "store": "lidl",
+      "cat": "Groenten",
+      "name": "Rivolo tomaten",
+      "price": "1,99"
+    },
+    {
+      "store": "lidl",
+      "cat": "Vlees",
+      "name": "Gekruide varkensoester",
+      "price": "4,49"
+    },
+    {
+      "store": "lidl",
+      "cat": "Vlees",
+      "name": "Varkenshaas",
+      "price": "6,99"
+    },
+    {
+      "store": "lidl",
+      "cat": "Vlees",
+      "name": "Varkensrollade",
+      "price": "8,99"
+    },
+    {
+      "store": "lidl",
+      "cat": "Vlees",
+      "name": "Zwagerman spekreepjes XXL",
+      "price": "2,99"
+    },
+    {
+      "store": "lidl",
+      "cat": "Vlees",
+      "name": "Van de Meesterslager pastrami met peper",
+      "price": "3,49"
+    },
+    {
+      "store": "lidl",
+      "cat": "Vis",
+      "name": "Zalmfilet op huid",
+      "price": "7,99"
+    },
+    {
+      "store": "lidl",
+      "cat": "Vis",
+      "name": "Iglo lekkerbekjes",
+      "price": "2,49",
+      "was": "4,99"
+    },
+    {
+      "store": "lidl",
+      "cat": "Zuivel & eieren",
+      "name": "Milbona yoghurt Griekse stijl 10% vet, 1,1 kg",
+      "price": "1,59",
+      "size": 1100,
+      "unit": "g"
+    },
+    {
+      "store": "lidl",
+      "cat": "Zuivel & eieren",
+      "name": "Milbona roomboter ongezouten, 250 g",
+      "price": "1,09",
+      "was": "1,15",
+      "size": 250,
+      "unit": "g"
+    },
+    {
+      "store": "lidl",
+      "cat": "Zuivel & eieren",
+      "name": "Trifle toetjes",
+      "price": "1,79"
+    },
+    {
+      "store": "lidl",
+      "cat": "Kaas",
+      "name": "Galbani mozzarella",
+      "price": "1,99",
+      "was": "2,75"
+    },
+    {
+      "store": "lidl",
+      "cat": "Kaas",
+      "name": "Milbona Goudse kaas belegen 30+, stuk",
+      "price": "4,76"
+    },
+    {
+      "store": "lidl",
+      "cat": "Voorraad",
+      "name": "Maribel 100% pindakaas, 600 g",
+      "price": "2,49",
+      "was": "2,98",
+      "size": 600,
+      "unit": "g"
+    },
+    {
+      "store": "lidl",
+      "cat": "Voorraad",
+      "name": "Chef Select kip-broodsalades",
+      "price": "1,49"
+    },
+    {
+      "store": "lidl",
+      "cat": "Voorraad",
+      "name": "Deluxe pasta",
+      "price": "2,49"
+    },
+    {
+      "store": "lidl",
+      "cat": "Voorraad",
+      "name": "Fairtrade kruidenpasta",
+      "price": "3,49"
+    },
+    {
+      "store": "lidl",
+      "cat": "Voorraad",
+      "name": "Kania mayonaise",
+      "price": "2,29"
+    },
+    {
+      "store": "lidl",
+      "cat": "Voorraad",
+      "name": "Primadonna bio olijfolie extra vierge",
+      "price": "5,99"
+    },
+    {
+      "store": "lidl",
+      "cat": "Voorraad",
+      "name": "Alesto cashew- of pistachenoten, 500 g",
+      "price": "4,99",
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "store": "lidl",
+      "cat": "Brood",
+      "name": "Rustiek meergranen",
+      "price": "1,69"
+    },
+    {
+      "store": "lidl",
+      "cat": "Brood",
+      "name": "Frikandelbroodje XXL, per stuk",
+      "price": "0,98",
+      "size": 1,
+      "unit": "st"
+    },
+    {
+      "store": "lidl",
+      "cat": "Diepvries",
+      "name": "Dr. Oetker Ristorante pizza",
+      "price": "1,88",
+      "was": "3,85"
+    },
+    {
+      "store": "lidl",
+      "cat": "Drinken",
+      "name": "Lipton thee, 20 zakjes",
+      "price": "1,49",
+      "was": "2,99",
+      "size": 20,
+      "unit": "st"
+    },
+    {
+      "store": "lidl",
+      "cat": "Drinken",
+      "name": "Lavazza koffiecups",
+      "price": "8,99",
+      "was": "12,79"
+    },
+    {
+      "store": "lidl",
+      "cat": "Drinken",
+      "name": "Bellarom koffiecups espresso, 16 stuks",
+      "price": "3,55",
+      "was": "3,65",
+      "size": 16,
+      "unit": "st"
+    },
+    {
+      "store": "lidl",
+      "cat": "Snoep & snacks",
+      "name": "Favorina kruidnoten, 350 g",
+      "price": "0,95",
+      "size": 350,
+      "unit": "g"
+    },
+    {
+      "store": "lidl",
+      "cat": "Snoep & snacks",
+      "name": "Favorina Oud Hollandse pepernoten",
+      "price": "1,49"
+    },
+    {
+      "store": "lidl",
+      "cat": "Snoep & snacks",
+      "name": "Roomboter gevulde speculaas",
+      "price": "1,99"
+    },
+    {
+      "store": "lidl",
+      "cat": "Snoep & snacks",
+      "name": "Doritos, 170 g",
+      "price": "1,49",
+      "was": "1,89",
+      "size": 170,
+      "unit": "g"
+    },
+    {
+      "store": "lidl",
+      "cat": "Snoep & snacks",
+      "name": "Kinder Chocolate",
+      "price": "4,99"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Vlees",
+      "name": "Jumbo spekreepjes/-blokjes of hamblokjes, bv. 2 pakken spekreepjes à 250 g (1+1 gratis)",
+      "price": "4,99",
+      "was": "9,98",
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Vlees",
+      "name": "Kipschnitzel, krokant, saté, cordon bleu, burger of gehaktbal (2 voor 5,00)",
+      "price": "5,00"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Vlees",
+      "name": "Hamburgers (2 voor 6,00)",
+      "price": "6,00"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Kaas",
+      "name": "Old Amsterdam, alle, bv. 2 pakken à 8 plakken (1+1 gratis)",
+      "price": "4,89",
+      "was": "9,78",
+      "size": 16,
+      "unit": "st"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Kaas",
+      "name": "Heks'nkaas origineel, bakje 200 g (50% korting)",
+      "price": "1,65",
+      "was": "3,29",
+      "size": 200,
+      "unit": "g"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Zuivel & eieren",
+      "name": "Zuivelhoeve, alle, bv. 2 emmers Boer'n vla vanille à 750 g (1+1 gratis)",
+      "price": "2,99",
+      "was": "5,98",
+      "size": 1500,
+      "unit": "g"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Vega",
+      "name": "Alle gekoelde Alpro (2 voor 3,99)",
+      "price": "3,99"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Fruit",
+      "name": "Pitloze witte druiven, schaal 500 g",
+      "price": "1,99",
+      "was": "2,59",
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Fruit",
+      "name": "Kanzi appels, zak 1 kilo",
+      "price": "3,49",
+      "size": 1000,
+      "unit": "g"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Diepvries",
+      "name": "Jumbo's vriesverse maaltijden, alle, bv. 2 x 450 g Thaise rijst (1+1 gratis)",
+      "price": "5,99",
+      "was": "11,98",
+      "size": 900,
+      "unit": "g"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Voorraad",
+      "name": "Jumbo verspakket (soep, Griekse gehaktschotel, pasta pomodoro of lasagne), 2 stuks (1+1 gratis)",
+      "price": "5,49",
+      "was": "10,98",
+      "size": 2,
+      "unit": "st"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Voorraad",
+      "name": "Jumbo Oosterse maaltijden (2 voor 5,50)",
+      "price": "5,50"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Brood",
+      "name": "JAN pannenkoeken, bv. 2 pakken à 8 stuks naturel (1+1 gratis)",
+      "price": "2,95",
+      "was": "5,90",
+      "size": 16,
+      "unit": "st"
+    },
+    {
+      "store": "jumbo",
+      "cat": "Drinken",
+      "name": "Jumbo's filterkoffie, alle 500 g, 2 pakken (1+1 gratis)",
+      "price": "7,99",
+      "was": "15,98",
+      "size": 1000,
+      "unit": "g"
+    }
+  ],
+  "meals": [
+    {
+      "day": "Maandag",
+      "title": "Kip-roerbak met paksoi en jasmijnrijst",
+      "time": "25 min",
+      "shared": "Roerbakgroenten (Nettorama) en paksoi met bosui (Poiesz) uit de wok met knoflook, gember, sojasaus en ketjap. Jasmijnrijst.",
+      "him": "Halve bak kipfilet (Nettorama) in reepjes, apart aangebraden; rest bewaren voor donderdag",
+      "her": "Twee gebakken scharreleieren (Poiesz) met een scheut sojasaus",
+      "steps": [
+        "Zet 250 g jasmijnrijst op.",
+        "Snijd de helft van de kipfilet in reepjes en bak in een aparte pan 6 tot 8 minuten gaar.",
+        "Fruit knoflook en gember in de wok, bak de roerbakgroenten 3 minuten, voeg de paksoi in parten toe.",
+        "Blus af met 3 el sojasaus en 1 el ketjap; bak voor haar 2 eieren.",
+        "Verdeel rijst en groenten, kip op zijn bord, eieren op het hare, bestrooi met bosui."
+      ]
+    },
+    {
+      "day": "Dinsdag",
+      "title": "Koreaanse gochujang-bowl met broccoli en spinazie",
+      "time": "30 min",
+      "shared": "Rijst met geroosterde broccoli (Poiesz), geslonken spinazie (Poiesz) en een saus van Sempio gochujang (Poiesz), sojasaus en honing.",
+      "him": "Speklappen (Nettorama) in reepjes krokant gebakken en geglaceerd met gochujang",
+      "her": "Vivera vleesvervanger (Poiesz) krokant gebakken met dezelfde saus, plus een gebakken ei (Poiesz)",
+      "steps": [
+        "Zet 250 g rijst op. Meng 2 el gochujang, 2 el sojasaus en 1 el honing.",
+        "Snijd de broccoli in roosjes en bak 6 minuten in de wok met wat olie.",
+        "Bak in twee pannen de speklappen-reepjes en de Vivera krokant; glaceer elk met de helft van de saus.",
+        "Laat de spinazie op het laatst slinken bij de broccoli; bak een ei voor haar.",
+        "Schep rijst, groenten en eiwit in kommen en bestrooi met bosui."
+      ]
+    },
+    {
+      "day": "Woensdag",
+      "title": "Ramen met flanksteak, paksoi en zachtgekookt ei",
+      "time": "30 min",
+      "shared": "Bouillon van groentebouillon, sojasaus, gember en knoflook met Go-Tan ramen noodles (Poiesz), paksoi (Poiesz) en een zak roerbakgroenten (Nettorama).",
+      "him": "Runderflanksteak (Aldi) kort gebakken en in dunne plakjes",
+      "her": "Twee zachtgekookte scharreleieren (Poiesz), gehalveerd",
+      "steps": [
+        "Haal de flanksteak op tijd uit de koelkast en kook 2 eieren in 6,5 minuut; laat schrikken.",
+        "Breng 1,2 liter bouillon met 3 el sojasaus, gember en knoflook aan de kook.",
+        "Bak de flanksteak 3 minuten per kant op hoog vuur, laat rusten en snijd dun tegen de draad in.",
+        "Kook de noodles en roerbakgroenten 3 minuten mee in de bouillon, de paksoi de laatste minuut.",
+        "Verdeel over kommen: steak op zijn kom, eieren op de hare, bosui erover."
+      ]
+    },
+    {
+      "day": "Donderdag",
+      "title": "Pompoencurry met spinazie en rijst",
+      "time": "35 min",
+      "shared": "Romige curry van hokkaidopompoen (Nettorama), prei (Lidl) en spinazie (Poiesz) met kerriepasta en kokosmelk. Rijst.",
+      "him": "Rest van de kipfilet (Nettorama) in blokjes, apart aangebraden en door zijn portie geroerd",
+      "her": "Kikkererwten door haar portie, met een flinke lepel Griekse yoghurt (Lidl)",
+      "steps": [
+        "Zet 250 g rijst op. Snijd een halve pompoen in blokjes (schil mag eraan) en de prei in ringen.",
+        "Fruit prei en 2 el kerriepasta, voeg pompoen en een blik kokosmelk toe; 15 minuten zacht koken.",
+        "Bak intussen de kipblokjes gaar in een aparte pan.",
+        "Verdeel de curry over twee pannetjes en roer de spinazie erdoor; kip bij hem, kikkererwten bij haar.",
+        "Serveer met rijst; Griekse yoghurt erop voor haar."
+      ]
+    },
+    {
+      "day": "Vrijdag",
+      "title": "Gyros-rijstbowl met snijbonen en tzatziki",
+      "time": "30 min",
+      "shared": "Rijst met knoflook-snijbonen (Nettorama), mini-komkommer (Nettorama) en tzatziki van Griekse yoghurt (Lidl). Heks'nkaas (Jumbo) erbij.",
+      "him": "Gyrosvlees met paprika (Nettorama) knapperig gebakken",
+      "her": "Vivera vleesvervanger (Poiesz) met gyroskruiden gebakken, of 2 eieren als die op zijn",
+      "steps": [
+        "Zet 250 g rijst op. Snijd de snijbonen schuin en kook ze 6 minuten.",
+        "Rasp een mini-komkommer en meng met Griekse yoghurt, knoflook en zout tot tzatziki.",
+        "Bak in twee pannen het gyrosvlees en de Vivera met gyroskruiden.",
+        "Schep de snijbonen om met knoflook en olijfolie; snijd de rest van de komkommers in plakjes.",
+        "Bouw de bowls op met rijst, groenten, eiwit, tzatziki en Heks'nkaas."
+      ]
+    }
+  ],
+  "shopping": [
+    {
+      "name": "Roerbakgroenten, 2 zakken à 400 g",
+      "store": "Nettorama",
+      "cat": "Groenten",
+      "deal": true
+    },
+    {
+      "name": "Kipfilet, 750 g",
+      "store": "Nettorama",
+      "cat": "Vlees",
+      "deal": true
+    },
+    {
+      "name": "Speklappen, 500 g",
+      "store": "Nettorama",
+      "cat": "Vlees",
+      "deal": true
+    },
+    {
+      "name": "Gyrosvlees met paprika",
+      "store": "Nettorama",
+      "cat": "Vlees",
+      "deal": true
+    },
+    {
+      "name": "Hokkaidopompoen (ca. 1 kilo)",
+      "store": "Nettorama",
+      "cat": "Groenten",
+      "deal": true
+    },
+    {
+      "name": "Ongesneden snijbonen, zak 400 g",
+      "store": "Nettorama",
+      "cat": "Groenten",
+      "deal": true
+    },
+    {
+      "name": "Mini komkommers, net 750 g",
+      "store": "Nettorama",
+      "cat": "Groenten",
+      "deal": true
+    },
+    {
+      "name": "Paksoi, 2 stuks",
+      "store": "Poiesz",
+      "cat": "Groenten",
+      "deal": true
+    },
+    {
+      "name": "Broccoli, 500 g",
+      "store": "Poiesz",
+      "cat": "Groenten",
+      "deal": true
+    },
+    {
+      "name": "Spinazie, 2 zakken à 400 g",
+      "store": "Poiesz",
+      "cat": "Groenten",
+      "deal": true
+    },
+    {
+      "name": "Bosui, 1 bos",
+      "store": "Poiesz",
+      "cat": "Groenten",
+      "deal": true
+    },
+    {
+      "name": "Scharreleieren, doos 10 stuks",
+      "store": "Poiesz",
+      "cat": "Zuivel & eieren",
+      "deal": true
+    },
+    {
+      "name": "Vivera vleesvervanger, 2 pakken",
+      "store": "Poiesz",
+      "cat": "Vega",
+      "deal": true
+    },
+    {
+      "name": "Sempio gochujang",
+      "store": "Poiesz",
+      "cat": "Voorraad",
+      "deal": true
+    },
+    {
+      "name": "Go-Tan ramen noodles, 250 g",
+      "store": "Poiesz",
+      "cat": "Voorraad",
+      "deal": true
+    },
+    {
+      "name": "Runderflanksteak",
+      "store": "Aldi",
+      "cat": "Vlees",
+      "deal": true
+    },
+    {
+      "name": "Prei",
+      "store": "Lidl",
+      "cat": "Groenten",
+      "deal": true
+    },
+    {
+      "name": "Milbona yoghurt Griekse stijl",
+      "store": "Lidl",
+      "cat": "Zuivel & eieren",
+      "deal": true
+    },
+    {
+      "name": "Heks'nkaas origineel, 200 g (vanaf woensdag)",
+      "store": "Jumbo",
+      "cat": "Kaas",
+      "deal": true
+    },
+    {
+      "name": "Jasmijnrijst, 1 kilo",
+      "store": "Overal",
+      "cat": "Voorraad"
+    },
+    {
+      "name": "Knoflook",
+      "store": "Overal",
+      "cat": "Groenten"
+    },
+    {
+      "name": "Verse gember",
+      "store": "Overal",
+      "cat": "Groenten"
+    },
+    {
+      "name": "Sojasaus",
+      "store": "Overal",
+      "cat": "Voorraad"
+    },
+    {
+      "name": "Ketjap manis",
+      "store": "Overal",
+      "cat": "Voorraad"
+    },
+    {
+      "name": "Honing",
+      "store": "Overal",
+      "cat": "Voorraad"
+    },
+    {
+      "name": "Groentebouillonblokjes",
+      "store": "Overal",
+      "cat": "Voorraad"
+    },
+    {
+      "name": "Gele of rode kerriepasta",
+      "store": "Overal",
+      "cat": "Voorraad"
+    },
+    {
+      "name": "Kokosmelk, 1 blik",
+      "store": "Overal",
+      "cat": "Voorraad"
+    },
+    {
+      "name": "Kikkererwten, 1 blik",
+      "store": "Overal",
+      "cat": "Voorraad"
+    },
+    {
+      "name": "Gyroskruiden",
+      "store": "Overal",
+      "cat": "Voorraad"
+    },
+    {
+      "name": "Olijfolie",
+      "store": "Overal",
+      "cat": "Voorraad"
+    }
+  ]
 }
